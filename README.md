@@ -27,11 +27,6 @@
 - Managed **AWS infrastructure** (EC2, S3, Lambda, RDS, CloudWatch)
 - Deployed and maintained **Docker-containerized applications**
 
-### 📊 **AI Integration Specialist**
-- Developed **AI-powered matching algorithms** using **OpenAI & Gemini APIs**
-- Created **chatbot functionality** with custom prompt engineering
-- Improved business efficiency through **intelligent automation**
-
 ## 📈 GitHub Analytics
 
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=nishibu97&show_icons=true&theme=transparent)
