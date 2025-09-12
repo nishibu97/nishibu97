@@ -33,6 +33,9 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nishibu97&layout=compact&theme=transparent)
 
 ## 🚀 Current Projects
+**Since October 2024**
+[Fconne](https://fts-future-connect.com/)
+
 **Since October 2024**  
 [Le Mistral Technology, Inc.](https://www.mistral-tech.co.jp/) 
 
