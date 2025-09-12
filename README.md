@@ -34,10 +34,10 @@
 
 ## 🚀 Current Projects
 **Since October 2024**  
-<a href="https://www.mistral-tech.co.jp/" target="_blank">Le Mistral Technology, Inc.</a> - *Frontend Engineering*
+[Le Mistral Technology, Inc.](https://www.mistral-tech.co.jp/) - *Full-Stack Development*
 
 **Since August 2025**  
-<a href="https://www.ripla.co.jp/" target="_blank">ripla</a> - *Frontend Engineering*
+[ripla](https://www.ripla.co.jp/) - *Frontend Engineering*
 
 ## 🏆 コアスキル
 
