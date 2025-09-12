@@ -11,6 +11,9 @@
 - 📫 How to reach me: **[nishibu.work@outlook.jp]**
 - ⚡ Fun fact: I enjoy building **prototypes** and turning **ideas into reality**!
 
+## 🎵 When I'm not coding...
+- 🥁 **Music Lover** - Playing drums and discovering new artists
+- ☕ **Coffee Connoisseur** - Always in search of the perfect brew
 
 ## 💼 Experience Highlights
 
@@ -35,13 +38,11 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nishibu97&layout=compact&theme=transparent)
 
 ## 🚀 Current Projects
-
 **Since October 2024**  
-[ミストラルテック](https://www.mistral-tech.co.jp/) - *Frontend Engineering*
+<a href="https://www.mistral-tech.co.jp/" target="_blank">Le Mistral Technology, Inc.</a> - *Frontend Engineering*
 
 **Since August 2025**  
-[ripla](https://www.ripla.co.jp/) - *Frontend Engineering*
-
+<a href="https://www.ripla.co.jp/" target="_blank">ripla</a> - *Frontend Engineering*
 
 ## 🏆 コアスキル
 
