@@ -27,8 +27,8 @@
 - Managed **AWS infrastructure** (EC2, S3, Lambda, RDS, CloudWatch)
 - Deployed and maintained **Docker-containerized applications**
 
-## 📈 GitHub Analytics
-
+## 📈 GitHub Analytics  
+📝 **Note**: These stats reflect public repositories only.  
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=nishibu97&show_icons=true&theme=transparent)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nishibu97&layout=compact&theme=transparent)
 
