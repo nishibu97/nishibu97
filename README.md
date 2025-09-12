@@ -34,7 +34,7 @@
 
 ## 🚀 Current Projects
 **Since October 2024**  
-[Le Mistral Technology, Inc.](https://www.mistral-tech.co.jp/) - *Full-Stack Development*
+[Le Mistral Technology, Inc.](https://www.mistral-tech.co.jp/) 
 
 **Since August 2025**  
 [ripla](https://www.ripla.co.jp/) - *Frontend Engineering*
