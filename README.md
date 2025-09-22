@@ -17,11 +17,6 @@
 
 ## 💼 Experience Highlights
 
-### 🎯 **Full-Stack Team Lead** 
-- Led a **3-person development team** for in-house product development
-- Designed and implemented **email matching system** using **LLM APIs**
-- Built **end-to-end solutions** from requirements analysis to production deployment
-
 ### 🔧 **DevOps & Infrastructure**
 - Implemented **CI/CD pipelines** with GitLab CI/CD
 - Managed **AWS infrastructure** (EC2, S3, Lambda, RDS, CloudWatch)
