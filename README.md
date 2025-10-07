@@ -25,7 +25,6 @@
 ## 📈 GitHub Analytics  
 📝 **Note**: These stats reflect public repositories only.  
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nishibu97)](https://github.com/anuraghazra/github-readme-stats)
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nishibu97&layout=compact&theme=transparent)
 
 ## 🚀 Current Projects
