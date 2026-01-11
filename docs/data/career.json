@@ -1,90 +1,363 @@
 [
   {
-    "company_name": "株式会社 ○○○○○",
-    "period": "2024 年 08 月～現在",
-    "business_content": "SaaS 型プロダクトの開発・提供（業務効率化ツール）",
-    "capital": "● 億円（2025 年 9 月時点）",
-    "employees": "150 人",
-    "listed": "非上場",
+    "company_name": "Arise analytics株式会社 (現職経由SES)",
+    "period": "2025 年 10 月～ 2025 年 11 月 ",
+    "business_content": "情報通信業",
+    "capital": "-",
+    "employees": "-",
+    "listed": "-",
     "projects": [
       {
-        "name": "プロジェクト ①",
+        "name": "大手通信事業会社コールセンター向け AIプロダクト開発(PoC)",
         "table": {
-          "period": "2024 年 08 月～現在",
-          "role": "バックエンドエンジニア",
+          "period": "2025 年 10 月～ 2025 年 11 月",
+          "role": "バックエンドエンジニア / AIエンジニア",
           "position": "メンバー",
-          "team": "プロダクト開発部：25 名（サーバーサイド 5 名 / PdM1 名 / デザイナー 2 名 他）"
+          "team": "チーム：PM 1 名 / 開発 2 名"
         },
-        "summary": "社内の情報共有・人材管理・業務モニタリングを支援するツール群を対象に、Ruby on Rails / AWS を中心としたバックエンド・インフラ開発を主担当とし、新機能開発や運用課題の改善に携わる。また、開発生産性や品質の向上に向けて、AI エージェントの業務導入やスクラム体制の見直しも進めた。",
+        "summary": "データアナリティクス企業にて、生成 AI 技術の PoC および AI プロダクトのプロトタイプ開発を担当。\nPoC 開発チームに所属し、主にプロトタイプ Web アプリケーションの機能追加、バッチの開発・改善を担当。",
         "tasks": [
-          "SaaS プロダクトの新機能開発および運用改善（Ruby on Rails / AWS）",
-          "PdM と連携し、プロダクトロードマップの策定・仕様検討フェーズに参加",
-          "インフラ構成やアラート体制の見直しを実施し、運用負荷の軽減を図る",
-          "Claude・Cursor 等の AI エージェントを用いて、要件定義やコードレビューの効率化を推進"
+          "プロトタイプ Web アプリケーションの機能追加、バッチの開発・改善",
+          "AWS 環境の構築(ECS, Lambda, EventBridge, S3, IAM, VPC, Transcribe)",
+          "生成 AI プロダクトの AWS デプロイフロー構築（電話音声 -> 文字起こし -> AI 要約 -> 出力結果格納 -> Web 表示）"
         ],
         "achievements": [
-          "新機能開発では、既存データ構造との整合性を考慮した API 設計・スキーマ設計を行い、E2E テストの自動化を併せて実施。サービス公開後の障害・仕様齟齬ゼロを達成するなど、品質担保に貢献。加えて、ActiveRecord のリレーション最適化やインデックス追加を通じて、N+1 クエリや過剰なデータ取得の解消に取り組み、レスポンス速度を最大 40%改善。",
-          "監視・運用面では、Datadog・Sentry を用いたアラート体制の再設計を実施。閾値設定や通知ルールの見直しにより、定常アラートを約 30%削減し、属人化していた障害対応の標準化を実現。",
-          "開発プロセスの効率化として、Cursor を活用しテストコードの自動生成やレビューコメント補助を導入。月間約 8 時間のレビュー工数を削減。設計フェーズでは Claude を用いた PRD 草案生成により、ドキュメント整備の属人性を解消し、認識齟齬の低減と業務スピードの向上に寄与。",
-          "スクラム体制の見直しでは、タスク分解・見積もり基準の最適化を推進。スプリント完了率を約 40%改善し、リリース後の障害報告数も 25%削減。開発チーム全体の安定稼働と成果の再現性向上に貢献。"
+          "PoC 開発における迅速な開発サイクル（設計 -> 開発 -> 動作確認 -> 精度検証 -> デプロイ)の実践",
+          "クラウドネイティブなアプリケーションの実装",
+          "音声認識・生成 AI など複数 AI 技術の利用",
+          "ビジネスコンサル・データサイエンティストとの協業",
+          "開発における生成 AI ツールの PoC (Notion や Claude Code などを利用)"
         ],
-        "tech_stack": "Ruby on Rails / MySQL / AWS（ECS, S3, RDS） / Terraform / Docker / GitHub / Claude / Cursor / Datadog / Sentry / BigQuery"
+        "tech_stack": "Python / Streamlit / AWS (Bedrock, Transcribe, S3, Lambda, ECS, EventBridge, IAM, VPC) / Docker / GitHub / Claude Code"
       }
     ]
   },
   {
-    "company_name": "株式会社 ○○○○○",
-    "period": "20xx 年 xx 月～ 20xx 年 xx 月",
-    "business_content": "求人マッチングサービス運営／受託開発",
-    "capital": "● 億円（20xx 年 xx 月時点）",
-    "employees": "150 人",
-    "listed": "非上場",
+    "company_name": "株式会社ripra (副業)",
+    "period": "2025 年 8 月～現在",
+    "business_content": "情報通信業",
+    "capital": "-",
+    "employees": "-",
+    "listed": "-",
     "projects": [
       {
-        "name": "プロジェクト ①",
+        "name": "ケアマネージャー向け業務支援アプリ開発",
         "table": {
-          "period": "20xx 年 xx 月～ 20xx 年 xx 月",
-          "role": "バックエンドエンジニア",
+          "period": "2025 年 8 月～現在",
+          "role": "フロントエンドエンジニア",
           "position": "メンバー",
-          "team": "開発チーム：20 名（サーバーサイド 5 名、フロントエンド 3 名 他）"
+          "team": "全体 5 名（PM 1 名 / デザイナー 1 名 / 開発 3 名）"
         },
-        "summary": "求人マッチングサービスの新規 API 開発および保守運用に携わる。他社から引き継いだレガシーなコードベースやローカル環境のばらつきといった課題があり、開発体験や品質改善をテーマにチームでの取り組みが進められた。バックエンドエンジニアとして Laravel + GraphQL 環境での API 開発や保守業務に従事。",
+        "summary": "ケアマネージャー向けの業務支援アプリ（SaaS）。\n音声入力による自動記録機能やユーザー管理、面談管理、スケジュール管理機能などを実装。",
         "tasks": [
-          "Laravel + GraphQL を用いた API の設計・実装・テスト・リリース対応",
-          "Docker Compose を用いたローカル開発環境の整備の一部に携わる",
-          "バグ改修や保守対応、仕様の整理・実装改善",
-          "レビュー対応およびチーム内の開発プロセス改善に対する意見出し"
+          "副業フロントエンドエンジニアとしてジョインし、Next.js + Chakra UI V3 を使った Web アプリケーションの実装",
+          "バックエンドは Go による API に処理を任せ、フロントの開発を Next.js + Chakra UI V3 + App Router で実装",
+          "SSR, Server Actions を活用して Next.js 最適化",
+          "機能実装（スケジュール管理、面談録音~AI 文字起こし・要約、AI チャットボット、質問板など）"
         ],
         "achievements": [
-          "バラバラだったローカル環境の統一課題のイシューを担当。先輩エンジニアと連携しながら、環境構築手順の整備やドキュメント化を担当し、新規メンバーの開発着手までの時間短縮に貢献（平均 2 日 →1 日）。",
-          "API 実装では、GraphQL（Lighthouse）を用いたスキーマ設計やバリデーション設定を経験。以前の案件での学びを活かしながら、仕様に応じた柔軟なクエリ設計を実施。",
-          "保守運用では、発生したバグの再現手順や原因分析を行い、既存コードの読み解きとエラーハンドリング改善を進行。実装修正により同様のバグ報告件数を月平均で約 30%削減。",
-          "レビュー観点にばらつきがあったため、ペアレビューを通じた観点共有や、レビューガイドラインの改善提案を実施。チーム内でのレビュープロセスの標準化に寄与した。"
+          "明確に役割分担されたチーム開発でのコミュニケーション",
+          "Claude Code を利用した AI 駆動開発"
         ],
-        "tech_stack": "PHP（Laravel） / GraphQL（Lighthouse） / MySQL / Docker / GitHub / AWS（EC2, RDS） / SendGrid / CircleCI"
+        "tech_stack": "Next.js (TypeScript) / Chakra UI V3 / Python / Golang / MySQL / Docker / AWS / Firebase / Figma / Claude Code"
       }
     ]
   },
   {
-    "company_name": "株式会社 ○○○○○",
-    "period": "20xx 年 xx 月～ 20xx 年 xx 月",
-    "business_content": "（記載なし）",
-    "capital": "（記載なし）",
-    "employees": "（記載なし）",
-    "listed": "（記載なし）",
+    "company_name": "ミストラルテック株式会社 (副業)",
+    "period": "2024 年 10 月～ 2025 年 6 月",
+    "business_content": "情報通信業",
+    "capital": "-",
+    "employees": "-",
+    "listed": "-",
     "projects": [
       {
-        "name": "プロジェクト ①",
+        "name": "自社ホームページ制作",
         "table": {
-          "period": "20xx 年 xx 月～ 20xx 年 xx 月",
-          "role": "",
-          "position": "",
-          "team": ""
+          "period": "2025 年 4 月～ 2025 年 6 月",
+          "role": "フロントエンドエンジニア",
+          "position": "メンバー",
+          "team": "全体 4 名（PM 1 名 / デザイナー 1 名 / 開発 2 名）"
         },
-        "summary": "（記載なし）",
-        "tasks": ["（記載なし）"],
-        "achievements": ["（記載なし）"],
-        "tech_stack": "（記載なし）"
+        "summary": "副業エンジニアとして、自社ホームページ刷新プロジェクトに参画。\nデザイナーが作成した Figma のデザインカンプを元に、Next.js と Tailwind CSS を用いてフロントエンドの実装を担当。",
+        "tasks": [
+          "Figma デザインカンプに基づいた Next.js (TSX) と Tailwind CSS によるコーディング",
+          "デザインカンプのレイアウト実装および Tailwind CSS を用いた詳細なスタイリング・装飾",
+          "Illustrator で作成された素材（写真・アイコン・イラスト）の Web サイトへの組み込み",
+          "レスポンシブデザイン対応",
+          "PM 兼バックエンド担当者との連携によるデザイン再現と画面実装"
+        ],
+        "achievements": [
+          "デザイナーとの連携による忠実なデザイン再現",
+          "レスポンシブ対応を含むモダンな Web サイト構築"
+        ],
+        "tech_stack": "Next.js (TypeScript) / TSX / Tailwind CSS / Vercel / GitHub / Slack / Figma / VSCode (Cursor)"
+      },
+      {
+        "name": "自社プロダクト AIチャットボット プロトタイプ開発",
+        "table": {
+          "period": "2024 年 10 月～ 2024 年 12 月",
+          "role": "フロントエンドエンジニア / バックエンドエンジニア",
+          "position": "メンバー",
+          "team": "全体 3 名（開発 3 名）"
+        },
+        "summary": "SaaS 系 AI チャットボットのプロトタイプ開発。\n副業エンジニアとしてジョインし、フロントエンド・バックエンドの両方を担当し、0 -> 1 での開発を実施。",
+        "tasks": [
+          "Figma で作成されたワイヤーフレームを元にした実装",
+          "ログイン・サインアップ・法人登録機能の実装",
+          "shadcn/ui や Tailwind CSS を利用したフロントエンド開発",
+          "Next.js API Routes を使った各画面の CRUD 処理実装",
+          "0 -> 1 でのフロントエンドおよびバックエンドのコーディング"
+        ],
+        "achievements": [
+          "フルスタックでのプロトタイプ開発（Next.js）",
+          "shadcn/ui を活用したモダンな UI 実装"
+        ],
+        "tech_stack": "Next.js (TypeScript) / Tailwind CSS / shadcn/ui / PostgreSQL / GitHub / Slack / Figma / VSCode (Cursor)"
+      }
+    ]
+  },
+  {
+    "company_name": "ファイナンシャルテクノロジーシステム株式会社",
+    "period": "2020 年 9 月～現在",
+    "business_content": "情報通信業",
+    "capital": "-",
+    "employees": "-",
+    "listed": "-",
+    "projects": [
+      {
+        "name": "自社プロダクトのマイナーアップデート DevOps",
+        "table": {
+          "period": "2025 年 7 月～ 2025 年 12 月",
+          "role": "バックエンドエンジニア / フロントエンドエンジニア",
+          "position": "メンバー",
+          "team": "全体 5 名（PM 1 名 / AI エンジニア 1 名 / 開発 3 名）"
+        },
+        "summary": "職務経歴書と案件のマッチ度を算出する Web アプリケーション。\nリリース後の顧客要望対応や機能追加、CI/CD 構築など継続的な改善を担当。",
+        "tasks": [
+          "新機能リリース後の顧客要望対応",
+          "CI/CD 構築（1 か月おきのリリースサイクルの確立）",
+          "Microsoft OAuth2 認証機能追加",
+          "AI による案件分類プロンプト改善",
+          "UI/UX 改善",
+          "ユーザー数集計スクリプトを Lambda で実装",
+          "運用管理サイトの機能改善"
+        ],
+        "achievements": [
+          "1 か月おきにリリースするための CI/CD 構築",
+          "運用チームとの定期的なミーティング開催による開発スピード向上",
+          "今後短いスパンでの継続的なマイナーアップデートの基盤確立"
+        ],
+        "tech_stack": "Next.js (TypeScript) / Tailwind CSS / Python (FastAPI) / Golang / PostgreSQL / Prisma (ORM) / Docker / AWS (EC2, S3, Lambda, RDS, Redis, CloudWatch) / GitLab / Redmine / Google Chat / Slack / Vim"
+      },
+      {
+        "name": "自社プロダクトの新規機能開発（メールマッチング機能）",
+        "table": {
+          "period": "2024 年 11 月～ 2025 年 7 月",
+          "role": " フルスタックエンジニア",
+          "position": "リーダー",
+          "team": "全体 5 名（PM 1 名 / AI エンジニア 1 名 / 開発 3 名）"
+        },
+        "summary": "職務経歴書と案件のマッチ度を算出する Web アプリケーションの新規機能（メールマッチング機能）開発。\n開発リーダーとして、基本設計からリリースまでの一連の工程を担当し、フロントエンド・バックエンドの実装から STG 環境構築まで幅広く貢献。",
+        "tasks": [
+          "基本設計・詳細設計（DB 設計、画面遷移図、API 仕様書、画面設計など）",
+          "フロントエンド開発（設定画面、メールテンプレート作成、クローリング実行、マッチング実行、結果一覧など）",
+          "バックエンド開発（Next.js API Routes / Python FastAPI での CRUD、メール送信、暗号化、IMAP/SMTP 接続）",
+          "LLM API（Gemini, OpenAI）を用いたマッチングロジック開発および Chatbot 機能・プロンプト作成",
+          "テスト（Jest による単体テスト、Golang バッチとの結合テスト、EC2 構成での総合テスト・負荷テスト）",
+          "STG 環境構築・デプロイ（EC2, Docker, PostgreSQL マイグレーション）",
+          "プロジェクト管理（Redmine タスク管理、GitLab コード管理、Google Chat コミュニケーション）"
+        ],
+        "achievements": [
+          "要件定義以外の基本設計からリリースまでの一連の開発プロセスをリード",
+          "Next.js (TypeScript) によるフロントエンド・バックエンドのフルスタック開発",
+          "Python (FastAPI) を用いた API 開発と LLM 連携の実践",
+          "開発リーダーとしてチームを牽引し、開発を推進",
+          "AWS（EC2, S3, RDS）を活用したデプロイと UAT の実施"
+        ],
+        "tech_stack": "Next.js (TypeScript) / Tailwind CSS / Python (FastAPI) / Golang / PostgreSQL / Prisma (ORM) / Docker / AWS (EC2, S3, Lambda, RDS, Redis, CloudWatch) / GitLab / Redmine / Google Chat / Vim"
+      },
+      {
+        "name": "自社サービス(AI Platform)のマイクロサービス化とリファクタリング",
+        "table": {
+          "period": "2022 年 4 月～ 2022 年 12 月",
+          "role": "バックエンドエンジニア / フロントエンドエンジニア",
+          "position": "メンバー",
+          "team": "全体 7 名 / チーム 3 名"
+        },
+        "summary": "画像解析 AI と OCR 技術を組み合わせた帳票データ化プラットフォームのマイクロサービス化。\nAI との API 連携や保守性・拡張性を考慮したリファクタリングを実施。",
+        "tasks": [
+          "Web アプリケーションのマイクロサービス化とリファクタリング",
+          "既存システムの仕様整理・テストケース作成",
+          "API 仕様書の作成",
+          "フロントエンド（React）のバグ修正",
+          "新規ユーザー追加処理の実装",
+          "アカウント権限の再設計および機能制限の実装",
+          "結合テスト〜不具合修正、総合テスト実施"
+        ],
+        "achievements": [
+          "マイクロサービス化による保守性・拡張性の向上",
+          "アカウント権限設計の見直しによるセキュリティ強化",
+          "仕様整理から実装、テストまでの一貫した対応"
+        ],
+        "tech_stack": "PHP (Laravel) / Python (FastAPI) / React (JavaScript) / MySQL 5.7 / Docker / AWS (EC2) / Ubuntu 20.04 / GitLab / Slack / Redmine / Postman"
+      },
+      {
+        "name": "自社サービス(AI Platform)の結合テスト・総合テスト・不具合対応",
+        "table": {
+          "period": "2020 年 9 月～ 2021 年 3 月",
+          "role": "バックエンドエンジニア / テスター",
+          "position": "メンバー",
+          "team": "全体 10 名 / チーム 4 名"
+        },
+        "summary": "画像解析 AI と OCR 技術を組み合わせた帳票データ化プラットフォームのテスト・不具合対応。\nAI モデル精度向上に伴う学習データ作成も担当。",
+        "tasks": [
+          "自社サービスの総合テスト・不具合対応",
+          "各種テストケースの作成及び実行",
+          "不具合の調査及び修正",
+          "AI モデルの学習データ作成（アノテーション作業）",
+          "Redmine や Git issue を用いたタスク・課題管理"
+        ],
+        "achievements": [
+          "テスターとして製品品質の向上に貢献",
+          "AI 開発プロセス（アノテーション）への参加"
+        ],
+        "tech_stack": "PHP (Laravel) / MySQL 5.7 / Docker / Ubuntu 20.04 / GitLab / Slack / Redmine / Postman / VSCode"
+      }
+    ]
+  },
+  {
+    "company_name": "現職経由 受託案件 - 硝子商社株式会社",
+    "period": "2023 年 7 月～ 2025 年 3 月",
+    "business_content": "商社",
+    "capital": "-",
+    "employees": "-",
+    "listed": "-",
+    "projects": [
+      {
+        "name": "メール通知業務自動化システム開発 / 基幹系業務システム保守運用",
+        "table": {
+          "period": "2023 年 7 月～ 2025 年 3 月",
+          "role": "バックエンドエンジニア / 運用保守",
+          "position": "メンバー",
+          "team": "全体 3 名（PM 1 名 / 開発 2 名）"
+        },
+        "summary": "基幹系業務システムの保守運用技術支援および、基幹システム連動のメール通知自動化システムの開発・機能追加。\n2024 年 6 月以降は他プロジェクトと並行して運用・保守を継続。",
+        "tasks": [
+          "基幹系業務システムの保守・運用（VB, C#, SQL Server）",
+          "不具合発生時のログ解析、原因特定、トラブルシューティング",
+          "データ修正 SQL の作成・実行",
+          "メール通知業務自動化システムの開発・機能追加（Laravel）",
+          "機能改善やリファクタリングの提案",
+          "追加機能の要件定義から運用までの一貫した担当",
+          "Docker, Shell スクリプト, cron を用いたデプロイ・運用環境構築"
+        ],
+        "achievements": [
+          "基幹システムの安定稼働への貢献（不具合解析・データ修正）",
+          "メール通知業務の自動化による業務効率化",
+          "レガシーシステム（VB, C#）とモダン技術（Laravel, Docker）の併用によるシステム改善"
+        ],
+        "tech_stack": "PHP (Laravel) / VB / C# (.NET) / Shell / SQL Server / MySQL / AWS (EC2) / Windows Server / Docker / GitLab / Slack / Redmine / SVN / SSMS / VSCode / Visual Studio"
+      }
+    ]
+  },
+  {
+    "company_name": "現職経由 受託案件 - エヌアイシー・ソフト",
+    "period": "2023 年 3 月～ 2023 年 6 月",
+    "business_content": "情報通信業",
+    "capital": "-",
+    "employees": "-",
+    "listed": "-",
+    "projects": [
+      {
+        "name": "インボイス制度適応に伴う新規業務システムの開発",
+        "table": {
+          "period": "2023 年 3 月～ 2023 年 6 月",
+          "role": "バックエンドエンジニア / サブリーダー",
+          "position": "サブリーダー",
+          "team": "全体 約 40 名 / チーム 8 名"
+        },
+        "summary": "インボイス制度適応に伴う適格請求書 PDF 作成業務処理およびバッチ処理の開発。\nCOBOL で書かれた既存システムとの連携を含むウォーターフォール型開発。",
+        "tasks": [
+          "適格請求書 PDF 作成処理の詳細設計〜単体テスト",
+          "Java, Spring を用いた業務ロジックの実装",
+          "単体テスト仕様書の作成及び実行",
+          "顧客との打ち合わせや会議の主導、進捗報告",
+          "チームメンバーへの情報連携、課題解決の提案"
+        ],
+        "achievements": [
+          "サブリーダーとしてのチームマネジメントおよび顧客対応",
+          "インボイス制度対応の業務システム実装"
+        ],
+        "tech_stack": "Java / Spring / PostgreSQL / Eclipse / Windows 10 / SVN / Redmine"
+      }
+    ]
+  },
+  {
+    "company_name": "現職経由 受託案件 - NII研究所",
+    "period": "2023 年 1 月～ 2023 年 3 月",
+    "business_content": "教育・研究機関",
+    "capital": "-",
+    "employees": "-",
+    "listed": "-",
+    "projects": [
+      {
+        "name": "論文管理システムの機能追加",
+        "table": {
+          "period": "2023 年 1 月～ 2023 年 3 月",
+          "role": "バックエンドエンジニア / フロントエンドエンジニア",
+          "position": "メンバー",
+          "team": "全体 3 名（PM 1 名 / AI エンジニア 1 名 / 開発 1 名）"
+        },
+        "summary": "Web アプリケーション上で論文とユーザーを管理するシステムの機能追加開発。\nAdmin ユーザーによる管理画面や、AI による要約・NG ワードチェック機能、公開設定機能などを追加。",
+        "tasks": [
+          "提案依頼書に対する修正概要書の作成",
+          "Admin ユーザーによる管理画面の追加",
+          "AI による要約と NG ワードのチェック機能、公開・非公開設定機能の追加（AI モデル以外）",
+          "メールサーバーの設定およびメール送信機能の不具合修正",
+          "各種テストケースの作成・実施",
+          "Docker や Linux コマンドを用いたデプロイ手順書の作成"
+        ],
+        "achievements": [
+          "論文管理システムの機能拡充による利便性向上",
+          "AI 機能（要約・NG ワードチェック）のシステムへの組み込み",
+          "デプロイ手順の整備による運用効率化"
+        ],
+        "tech_stack": "Python (Flask) / HTML / CSS / JavaScript / MySQL 5.7 / AWS (EC2) / Ubuntu 20.04 / Docker / GitLab / Slack / Redmine / Postman"
+      }
+    ]
+  },
+  {
+    "company_name": "現職経由 受託案件 - NII研究所",
+    "period": "2021 年 4 月～ 2021 年 11 月",
+    "business_content": "教育・研究機関",
+    "capital": "-",
+    "employees": "-",
+    "listed": "-",
+    "projects": [
+      {
+        "name": "論文管理システムの開発",
+        "table": {
+          "period": "2021 年 4 月～ 2021 年 11 月",
+          "role": "バックエンドエンジニア / フロントエンドエンジニア",
+          "position": "メンバー",
+          "team": "全体 3 名（チーム 3 名）"
+        },
+        "summary": "Web アプリケーション上で論文とユーザーを管理し、投稿・閲覧ができるシステムの新規開発。\nAI による論文要約・サムネイル表示機能を搭載。",
+        "tasks": [
+          "新規システム開発の実装〜テスト（AI 部分以外の Web アプリ開発）",
+          "フロントエンドおよびバックエンドの実装",
+          "画面作成、ルーティング、ログイン機能実装、ユーザー権限設定",
+          "HTML, CSS, JavaScript を用いた UI 作成",
+          "Python, Flask を用いたバックエンド実装",
+          "システム全体のテストとデバッグ"
+        ],
+        "achievements": [
+          "論文管理システムの 0 -> 1 開発",
+          "フルスタック（フロントエンド・バックエンド）での実装担当",
+          "AI 連携機能を持つ Web アプリケーションの構築"
+        ],
+        "tech_stack": "Python (Flask) / HTML / CSS / JavaScript / MySQL 5.7 / AWS (EC2) / Ubuntu 20.04 / Docker / GitLab / Slack / Redmine / Postman"
       }
     ]
   }
