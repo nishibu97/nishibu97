@@ -163,20 +163,7 @@
 
     <h2>職務要約</h2>
 
-    <p>
-      TypeScript/Python を中心としたフルスタック開発 5 年目のエンジニアです。
-
-      直近では、<strong>生成 AI を活用した SaaS プロダクト開発</strong>に 3案件連続で携わり、
-      OpenAI API・Gemini API との連携実装や、AWS Bedrock Transcribe を活用した音声認識システムの開発経験があります。
-
-      フロントエンド（Next.js/TypeScript）、バックエンド（FastAPI/Python）、インフラ（AWS
-      ECS/Lambda）を一貫して担当でき、0→1 フェーズでのPdM・デザイナーとの協業経験もあります。
-
-      また、自社サービス開発では GitLab CI/CD導入によるコスト削減や、
-      PdM・デザイナーとの協業を通じた要件定義・仕様策定にも携わってきました。
-
-      今後は、特定ドメインで深い知見を築き、技術とビジネスを繋ぐエンジニアとしてキャリアを構築したいと考えています。
-    </p>
+    <p>TypeScript/Python を中心としたフルスタック開発 5 年目のエンジニアです。<br /><br />直近では、<strong>生成 AI を活用した SaaS プロダクト開発</strong>に 3案件連続で携わり、OpenAI API・Gemini API との連携実装や、AWS Bedrock Transcribe を活用した音声認識システムの開発経験があります。<br /><br />フロントエンド（Next.js/TypeScript）、バックエンド（FastAPI/Python）、インフラ（AWS ECS/Lambda）を一貫して担当でき、0→1 フェーズでのPdM・デザイナーとの協業経験もあります。<br /><br />また、自社サービス開発では GitLab CI/CD導入によるコスト削減や、PdM・デザイナーとの協業を通じた要件定義・仕様策定にも携わってきました。<br /><br />今後は、特定ドメインで深い知見を築き、技術とビジネスを繋ぐエンジニアとしてキャリアを構築したいと考えています。</p>
 
     <h2>活かせる経験・知識・技術</h2>
     <ul>
@@ -285,6 +272,40 @@
           </tr>
         </table>
 
+        {% if project.situation %}
+        {% if project.summary %}
+        <span class="section-label">プロジェクト概要</span>
+        <p>{{ project.summary | replace('\n', '<br />') }}</p>
+        {% endif %}
+        
+        <span class="section-label">背景・課題</span>
+        <ul>
+          {% for item in project.situation %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+
+        <span class="section-label">自分のタスク</span>
+        <ul>
+          {% for item in project.task %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+
+        <span class="section-label">具体的なアクション</span>
+        <ul>
+          {% for item in project.action %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+
+        <span class="section-label">成果・影響</span>
+        <ul>
+          {% for item in project.result %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+        {% else %}
         <span class="section-label">プロジェクト概要</span>
         <p>{{ project.summary | replace('\n', '<br />') }}</p>
 
@@ -301,6 +322,7 @@
           <li>{{ achievement }}</li>
           {% endfor %}
         </ul>
+        {% endif %}
 
         <span class="section-label">利用技術</span>
         <div class="tech-stack">{{ project.tech_stack }}</div>

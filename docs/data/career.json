@@ -49,17 +49,39 @@
           "team": "全体 5 名（PM 1 名 / デザイナー 1 名 / 開発 3 名）"
         },
         "summary": "ケアマネージャー向けの業務支援アプリ（SaaS）。\n音声入力による自動記録機能やユーザー管理、面談管理、スケジュール管理機能などを実装。",
-        "tasks": [
-          "副業フロントエンドエンジニアとしてジョインし、Next.js + Chakra UI V3 を使った Web アプリケーションの実装",
-          "バックエンドは Go による API に処理を任せ、フロントの開発を Next.js + Chakra UI V3 + App Router で実装",
-          "SSR, Server Actions を活用して Next.js 最適化",
-          "機能実装（スケジュール管理、面談録音~AI 文字起こし・要約、AI チャットボット、質問板など）"
+        "situation": [
+          "ケアマネージャーの業務は、面談記録の手入力負荷が高い、スケジュール管理や情報分散により業務効率が低下しているといった課題を抱えており、",
+          "音声入力・AI 活用による業務効率化を目的とした SaaS の開発 が進められていた。",
+          "プロジェクトは職種ごとに役割が明確に分かれた体制で、フロントエンドの生産性と品質が重要なテーマだった。"
         ],
-        "achievements": [
-          "明確に役割分担されたチーム開発でのコミュニケーション",
-          "Claude Code を利用した AI 駆動開発"
+        "task": [
+          "副業フロントエンドエンジニアとして参画し、以下を担当。",
+          "Next.js + Chakra UI V3 を用いた Web アプリケーションのフロントエンド実装",
+          "Go 製 API と連携するフロント設計・実装",
+          "App Router / SSR / Server Actions を活用したパフォーマンスと開発体験の最適化",
+          "PM・デザイナー・バックエンドとの連携を前提とした機能実装"
         ],
-        "tech_stack": "Next.js (TypeScript) / Chakra UI V3 / Python / Golang / MySQL / Docker / AWS / Firebase / Figma / Claude Code"
+        "action": [
+          "責務分離を意識した実装",
+          "バックエンド（Go API）に処理を集約し、フロントは表示・操作・状態管理に集中",
+          "API I/F を前提にしたコンポーネント設計を徹底",
+          "Next.js App Router の特性を活かした最適化",
+          "SSR と Server Actions を使い、クライアント側の状態管理を最小化",
+          "音声入力・AI 処理結果表示など、UX を意識した画面遷移と描画設計",
+          "AI 駆動開発の実践",
+          "Claude Code を活用し、UI 実装やリファクタリングの初速を向上",
+          "単なるコード生成に留めず、設計意図を確認しながら人手で調整",
+          "チーム開発でのコミュニケーション",
+          "仕様不明点は早期に PM・デザイナーへ確認し、手戻りを防止",
+          "非同期中心の副業体制でも進捗が止まらないよう意識"
+        ],
+        "result": [
+          "スケジュール管理、面談録音〜AI 文字起こし・要約、AI チャットボット、質問板など主要機能のフロント実装に貢献",
+          "App Router / Server Actions を活用した構成により、UI レスポンスと実装効率を両立",
+          "明確な役割分担のチームにおいて、フロントエンド担当として安定した開発速度を維持",
+          "AI ツールを開発プロセスに組み込み、限られた副業時間内でも高い生産性を実現"
+        ],
+        "tech_stack": "Next.js (TypeScript) / Chakra UI V3 / Golang / Python / MySQL / Docker / AWS / Firebase / Figma / Claude Code"
       }
     ]
   },
@@ -126,59 +148,53 @@
     "listed": "-",
     "projects": [
       {
-        "name": "自社プロダクトのマイナーアップデート DevOps",
+        "name": "FTS-Future-Connect（自社サービス）",
         "table": {
-          "period": "2025 年 7 月～ 2025 年 12 月",
-          "role": "バックエンドエンジニア / フロントエンドエンジニア",
-          "position": "メンバー",
-          "team": "全体 5 名（PM 1 名 / AI エンジニア 1 名 / 開発 3 名）"
-        },
-        "summary": "職務経歴書と案件のマッチ度を算出する Web アプリケーション。\nリリース後の顧客要望対応や機能追加、CI/CD 構築など継続的な改善を担当。",
-        "tasks": [
-          "新機能リリース後の顧客要望対応",
-          "CI/CD 構築（1 か月おきのリリースサイクルの確立）",
-          "Microsoft OAuth2 認証機能追加",
-          "AI による案件分類プロンプト改善",
-          "UI/UX 改善",
-          "ユーザー数集計スクリプトを Lambda で実装",
-          "運用管理サイトの機能改善"
-        ],
-        "achievements": [
-          "1 か月おきにリリースするための CI/CD 構築",
-          "運用チームとの定期的なミーティング開催による開発スピード向上",
-          "今後短いスパンでの継続的なマイナーアップデートの基盤確立"
-        ],
-        "tech_stack": "Next.js (TypeScript) / Tailwind CSS / Python (FastAPI) / Golang / PostgreSQL / Prisma (ORM) / Docker / AWS (EC2, S3, Lambda, RDS, Redis, CloudWatch) / GitLab / Redmine / Google Chat / Slack / Vim"
-      },
-      {
-        "name": "自社プロダクトの新規機能開発（メールマッチング機能）",
-        "table": {
-          "period": "2024 年 11 月～ 2025 年 7 月",
-          "role": " フルスタックエンジニア",
-          "position": "リーダー",
-          "team": "全体 5 名（PM 1 名 / AI エンジニア 1 名 / 開発 3 名）"
+          "period": "2024年11月 ～ 2025年12月",
+          "role": "フルスタックエンジニア",
+          "position": "リーダー（後半はメンバー）",
+          "team": "5名（PM1 / AIエンジニア1 / 開発3）"
         },
         "summary": "職務経歴書と案件のマッチ度を算出する Web アプリケーションの新規機能（メールマッチング機能）開発。\n開発リーダーとして、基本設計からリリースまでの一連の工程を担当し、フロントエンド・バックエンドの実装から STG 環境構築まで幅広く貢献。",
-        "tasks": [
-          "基本設計・詳細設計（DB 設計、画面遷移図、API 仕様書、画面設計など）",
-          "フロントエンド開発（設定画面、メールテンプレート作成、クローリング実行、マッチング実行、結果一覧など）",
-          "バックエンド開発（Next.js API Routes / Python FastAPI での CRUD、メール送信、暗号化、IMAP/SMTP 接続）",
-          "LLM API（Gemini, OpenAI）を用いたマッチングロジック開発および Chatbot 機能・プロンプト作成",
-          "テスト（Jest による単体テスト、Golang バッチとの結合テスト、EC2 構成での総合テスト・負荷テスト）",
-          "STG 環境構築・デプロイ（EC2, Docker, PostgreSQL マイグレーション）",
-          "プロジェクト管理（Redmine タスク管理、GitLab コード管理、Google Chat コミュニケーション）"
+
+        "situation": [
+          "SES営業向けエンジニアと案件のマッチングを目的とした自社Webサービスの新規機能開発および、リリース後の継続的な改善・運用を行うフェーズ。",
+          "小規模チームでの自社開発",
+          "生成AI（LLM）を活用したマッチング機能が事業の中核",
+          "リリース後、顧客要望への迅速な対応と開発体制の整備が課題"
         ],
-        "achievements": [
-          "要件定義以外の基本設計からリリースまでの一連の開発プロセスをリード",
-          "Next.js (TypeScript) によるフロントエンド・バックエンドのフルスタック開発",
-          "Python (FastAPI) を用いた API 開発と LLM 連携の実践",
-          "開発リーダーとしてチームを牽引し、開発を推進",
-          "AWS（EC2, S3, RDS）を活用したデプロイと UAT の実施"
+        "task": [
+          "新規機能（メールマッチング機能）の設計〜リリースをリード",
+          "フロントエンド・バックエンドを横断した実装",
+          "リリース後の運用負荷を下げるための DevOps / CI/CD 整備",
+          "顧客要望を反映しながら、短いスパンでの改善サイクルを確立"
         ],
-        "tech_stack": "Next.js (TypeScript) / Tailwind CSS / Python (FastAPI) / Golang / PostgreSQL / Prisma (ORM) / Docker / AWS (EC2, S3, Lambda, RDS, Redis, CloudWatch) / GitLab / Redmine / Google Chat / Vim"
+        "action": [
+          "① 新規機能開発（リーダーとして）",
+          "DB設計、API仕様書、画面遷移図などの基本設計を担当",
+          "Next.js（TypeScript）によるフロント・バックエンド一体型開発",
+          "Python（FastAPI）でのAPI実装、メール送信（IMAP/SMTP）、暗号化処理",
+          "LLM（Gemini / OpenAI）を用いたマッチングロジック・プロンプト設計",
+          "Jestによる単体テスト、Golangバッチとの結合テスト、負荷テストを実施",
+          "EC2・Docker構成でのSTG環境構築とデプロイ",
+          "② リリース後の運用・DevOps改善",
+          "CI/CD を構築し、1か月おきの安定したリリースサイクルを確立",
+          "Microsoft OAuth2 認証機能の追加",
+          "AIによる案件分類プロンプトの改善",
+          "UI/UX 改善、運用管理画面の機能拡張",
+          "Lambda によるユーザー数集計バッチを実装",
+          "運用チームとの定期MTGを通じた改善要望の整理・反映"
+        ],
+        "result": [
+          "新規機能を設計からリリースまで一貫して完遂",
+          "短いスパンでのマイナーアップデートが可能な 開発・運用基盤を構築",
+          "運用チームとの連携強化により、改善リードタイムを短縮",
+          "フルスタック＋AWS運用経験を活かし、プロダクト全体を俯瞰した開発に貢献"
+        ],
+        "tech_stack": "Next.js（TypeScript） / Tailwind CSS / Python（FastAPI） / Golang / PostgreSQL / Prisma / Docker / AWS（EC2, S3, RDS, Lambda, Redis, CloudWatch） / GitLab / Redmine / Google Chat / Slack / Vim"
       },
       {
-        "name": "自社サービス(AI Platform)のマイクロサービス化とリファクタリング",
+        "name": "FTS AI Platform(自社サービス)のマイクロサービス化とリファクタリング",
         "table": {
           "period": "2022 年 4 月～ 2022 年 12 月",
           "role": "バックエンドエンジニア / フロントエンドエンジニア",
@@ -203,7 +219,7 @@
         "tech_stack": "PHP (Laravel) / Python (FastAPI) / React (JavaScript) / MySQL 5.7 / Docker / AWS (EC2) / Ubuntu 20.04 / GitLab / Slack / Redmine / Postman"
       },
       {
-        "name": "自社サービス(AI Platform)の結合テスト・総合テスト・不具合対応",
+        "name": "FTS AI Platform(自社サービス)の結合テスト・総合テスト・不具合対応",
         "table": {
           "period": "2020 年 9 月～ 2021 年 3 月",
           "role": "バックエンドエンジニア / テスター",
