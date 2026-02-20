@@ -37,6 +37,7 @@
 **Since August 2025**  
 [ripla](https://www.ripla.co.jp/) - *Frontend Engineering*
 
+<!--
 ## 🏆 コアスキル
 
 ```typescript
@@ -49,7 +50,7 @@ const mySkills = {
   学習中: ['AWS CDK', 'Go lang', 'Team Management']
 }
 ```
-
+-->
 ## 🛠️ Tech Stack
 
 ### Frontend
