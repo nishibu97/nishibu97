@@ -250,7 +250,7 @@
         <span><strong>上場:</strong> {{ company.listed }}</span>
       </div>
 
-      {% for project in company.projects %}
+      {% for project in company.projects | sort(attribute='project_id', reverse=True) %}
       <div class="project-section no-break">
         <h4>{{ project.name }}</h4>
 

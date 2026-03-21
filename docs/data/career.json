@@ -1,39 +1,5 @@
 [
   {
-    "company_name": "建築スタートアップ",
-    "period": "2026 年 1 月～進行中",
-    "business_content": "情報通信業",
-    "capital": "-",
-    "employees": "-",
-    "listed": "-",
-    "projects": [
-      {
-        "name": "建築部材の調達プラットフォーム",
-        "table": {
-          "period": "2026 年 1 月～進行中",
-          "role": "フルスタックエンジニア",
-          "position": "メンバー",
-          "team": "全体 10 名（PdM 1 名 / テックリード 1名 / リーダー1名 / メンバー 7名）"
-        },
-        "summary": "建築部材の調達プラットフォームのSCMシステム&SaaS開発。\nリリース後の顧客要望対応や機能追加、継続的な改善を担当。",
-        "tasks": [
-          "フルスタックエンジニアとしてジョインし、フロントエンドからバックエンドに跨る機能追加や、フロントエンドのライブラリ追加や更新、DBマイグレーションなどを担当。",
-          "ユーザーから上がってきたフィードバックやバグ・機能改善や機能拡張を担当。",
-          "PdMが要件定義をGithub Issueに記載 → リーダーがIssueの割り振り → メンバーがポイント付け・設計・開発・テスト → テックリードがレビュー → PdMがDev環境で確認 という開発フロー"
-        ],
-        "achievements": [
-          "1週間スプリントのスクラム開発(毎週金曜日リリース・毎週水曜日レトロスペクティブ)にて実践的にスクラム開発を実施",
-          "Next.js + NestJS + Hasura(GraphQL)アーキテクチャでの責務の分離。",
-          "アジャイル開発特有の設計やテストのバランス（設計はIssueやNotion, コードコメントに残し、テストは共通処理や重要なビジネスロジックのみ）。",
-          "フルリモート環境下での仕様確認やPRレビュー依頼の進め方、Slackでの非同期コミュニケーション、および必要に応じたオンラインMTGの活用。",
-          "Cursorを使ったAIコーディングのナレッジをチームに共有し、プロンプトや運用方法を毎週のレトロスペクティブで共有。",
-          "SCMシステム開発チーム、SaaSアプリ開発チーム、AIチームの3つのチーム間でのコラボレーションと通じて他チームとの連携"
-        ],
-        "tech_stack": "Next.js (TypeScript) / Chakra UI V2 / NestJS(NodeJS) / Hasura GraphQL / MySQL / Drizzle (ORM) / Docker / GCP / Sentry / Dependabot / GitHub / GitHub Actions / Notion / Slack"
-      }
-    ]
-  },
-  {
     "company_name": "株式会社ripra (副業)",
     "period": "2025 年 8 月～現在",
     "business_content": "情報通信業",
@@ -42,6 +8,7 @@
     "listed": "-",
     "projects": [
       {
+        "project_id": 12,
         "name": "ケアマネージャー向け業務支援アプリ開発",
         "table": {
           "period": "2025 年 8 月～現在",
@@ -87,14 +54,40 @@
     ]
   },
   {
-    "company_name": "データアナリティクス企業",
-    "period": "2025 年 10 月～ 2025 年 11 月 ",
+    "company_name": "ファイナンシャルテクノロジーシステム株式会社",
+    "period": "2020 年 9 月～現在",
     "business_content": "情報通信業",
     "capital": "-",
     "employees": "-",
     "listed": "-",
     "projects": [
       {
+        "project_id": 11,
+        "name": "建築部材の調達プラットフォーム",
+        "table": {
+          "period": "2026 年 1 月～進行中",
+          "role": "フルスタックエンジニア",
+          "position": "メンバー",
+          "team": "全体 10 名（PdM 1 名 / テックリード 1名 / リーダー1名 / メンバー 7名）"
+        },
+        "summary": "建築部材の調達プラットフォームのSCMシステム&SaaS開発。\nリリース後の顧客要望対応や機能追加、継続的な改善を担当。",
+        "tasks": [
+          "フルスタックエンジニアとしてジョインし、フロントエンドからバックエンドに跨る機能追加や、フロントエンドのライブラリ追加や更新、DBマイグレーションなどを担当。",
+          "ユーザーから上がってきたフィードバックやバグ・機能改善や機能拡張を担当。",
+          "PdMが要件定義をGithub Issueに記載 → リーダーがIssueの割り振り → メンバーがポイント付け・設計・開発・テスト → テックリードがレビュー → PdMがDev環境で確認 という開発フロー"
+        ],
+        "achievements": [
+          "1週間スプリントのスクラム開発(毎週金曜日リリース・毎週水曜日レトロスペクティブ)にて実践的にスクラム開発を実施",
+          "Next.js + NestJS + Hasura(GraphQL)アーキテクチャでの責務の分離。",
+          "アジャイル開発特有の設計やテストのバランス（設計はIssueやNotion, コードコメントに残し、テストは共通処理や重要なビジネスロジックのみ）。",
+          "フルリモート環境下での仕様確認やPRレビュー依頼の進め方、Slackでの非同期コミュニケーション、および必要に応じたオンラインMTGの活用。",
+          "Cursorを使ったAIコーディングのナレッジをチームに共有し、プロンプトや運用方法を毎週のレトロスペクティブで共有。",
+          "SCMシステム開発チーム、SaaSアプリ開発チーム、AIチームの3つのチーム間でのコラボレーションと通じて他チームとの連携"
+        ],
+        "tech_stack": "Next.js (TypeScript) / Chakra UI V2 / NestJS(NodeJS) / Hasura GraphQL / MySQL / Drizzle (ORM) / Docker / GCP / Sentry / Dependabot / GitHub / GitHub Actions / Notion / Slack"
+      },
+      {
+        "project_id": 10,
         "name": "大手通信事業会社コールセンター向け AIプロダクト開発(PoC)",
         "table": {
           "period": "2025 年 10 月～ 2025 年 11 月",
@@ -116,18 +109,9 @@
           "開発における生成 AI ツールの PoC (Notion や Claude Code などを利用)"
         ],
         "tech_stack": "Python / Streamlit / AWS (Bedrock, Transcribe, S3, Lambda, ECS, EventBridge, IAM, VPC) / Docker / GitHub / Claude Code"
-      }
-    ]
-  },
-  {
-    "company_name": "ファイナンシャルテクノロジーシステム株式会社",
-    "period": "2020 年 9 月～現在",
-    "business_content": "情報通信業",
-    "capital": "-",
-    "employees": "-",
-    "listed": "-",
-    "projects": [
+      },
       {
+        "project_id": 9,
         "name": "FTS-Future-Connect（自社サービス）",
         "table": {
           "period": "2024年11月 ～ 2025年12月",
@@ -136,7 +120,6 @@
           "team": "5名（PM1 / AIエンジニア1 / 開発3）"
         },
         "summary": "職務経歴書と案件のマッチ度を算出する Web アプリケーションの新規機能（メールマッチング機能）開発。\n開発リーダーとして、基本設計からリリースまでの一連の工程を担当し、フロントエンド・バックエンドの実装から STG 環境構築まで幅広く貢献。",
-        
         "situation": [
           "SES営業向けエンジニアと案件のマッチングを目的とした自社Webサービスの新規機能開発および、リリース後の継続的な改善・運用を行うフェーズ。",
           "小規模チームでの自社開発",
@@ -174,6 +157,7 @@
         "tech_stack": "Next.js（TypeScript） / Tailwind CSS / Python（FastAPI） / Golang / PostgreSQL / Prisma / Docker / AWS（EC2, S3, RDS, Lambda, Redis, CloudWatch） / GitLab / Redmine / Google Chat / Slack / Vim"
       },
       {
+        "project_id": 8,
         "name": "FTS AI Platform(自社サービス)のマイクロサービス化とリファクタリング",
         "table": {
           "period": "2022 年 4 月～ 2022 年 12 月",
@@ -199,6 +183,7 @@
         "tech_stack": "PHP (Laravel) / Python (FastAPI) / React (JavaScript) / MySQL 5.7 / Docker / AWS (EC2) / Ubuntu 20.04 / GitLab / Slack / Redmine / Postman"
       },
       {
+        "project_id": 7,
         "name": "FTS AI Platform(自社サービス)の結合テスト・総合テスト・不具合対応",
         "table": {
           "period": "2020 年 9 月～ 2021 年 3 月",
@@ -231,6 +216,7 @@
     "listed": "-",
     "projects": [
       {
+        "project_id": 6,
         "name": "メール通知業務自動化システム開発 / 基幹系業務システム保守運用",
         "table": {
           "period": "2023 年 7 月～ 2025 年 3 月",
@@ -266,6 +252,7 @@
     "listed": "-",
     "projects": [
       {
+        "project_id": 5,
         "name": "インボイス制度適応に伴う新規業務システムの開発",
         "table": {
           "period": "2023 年 3 月～ 2023 年 6 月",
@@ -298,6 +285,7 @@
     "listed": "-",
     "projects": [
       {
+        "project_id": 4,
         "name": "論文管理システムの機能追加",
         "table": {
           "period": "2023 年 1 月～ 2023 年 3 月",
@@ -332,6 +320,7 @@
     "listed": "-",
     "projects": [
       {
+        "project_id": 3,
         "name": "論文管理システムの開発",
         "table": {
           "period": "2021 年 4 月～ 2021 年 11 月",
@@ -366,6 +355,7 @@
     "listed": "-",
     "projects": [
       {
+        "project_id": 2,
         "name": "自社ホームページ制作",
         "table": {
           "period": "2025 年 4 月～ 2025 年 6 月",
@@ -388,6 +378,7 @@
         "tech_stack": "Next.js (TypeScript) / TSX / Tailwind CSS / Vercel / GitHub / Slack / Figma / VSCode (Cursor)"
       },
       {
+        "project_id": 1,
         "name": "自社プロダクト AIチャットボット プロトタイプ開発",
         "table": {
           "period": "2024 年 10 月～ 2024 年 12 月",
