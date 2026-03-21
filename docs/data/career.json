@@ -1,34 +1,35 @@
 [
   {
-    "company_name": "Arise analytics株式会社 (現職経由SES)",
-    "period": "2025 年 10 月～ 2025 年 11 月 ",
+    "company_name": "建築スタートアップ",
+    "period": "2026 年 1 月～進行中",
     "business_content": "情報通信業",
     "capital": "-",
     "employees": "-",
     "listed": "-",
     "projects": [
       {
-        "name": "大手通信事業会社コールセンター向け AIプロダクト開発(PoC)",
+        "name": "建築部材の調達プラットフォーム",
         "table": {
-          "period": "2025 年 10 月～ 2025 年 11 月",
-          "role": "バックエンドエンジニア / AIエンジニア",
+          "period": "2026 年 1 月～進行中",
+          "role": "フルスタックエンジニア",
           "position": "メンバー",
-          "team": "チーム：PM 1 名 / 開発 2 名"
+          "team": "全体 10 名（PdM 1 名 / テックリード 1名 / リーダー1名 / メンバー 7名）"
         },
-        "summary": "データアナリティクス企業にて、生成 AI 技術の PoC および AI プロダクトのプロトタイプ開発を担当。\nPoC 開発チームに所属し、主にプロトタイプ Web アプリケーションの機能追加、バッチの開発・改善を担当。",
+        "summary": "建築部材の調達プラットフォームのSCMシステム&SaaS開発。\nリリース後の顧客要望対応や機能追加、継続的な改善を担当。",
         "tasks": [
-          "プロトタイプ Web アプリケーションの機能追加、バッチの開発・改善",
-          "AWS 環境の構築(ECS, Lambda, EventBridge, S3, IAM, VPC, Transcribe)",
-          "生成 AI プロダクトの AWS デプロイフロー構築（電話音声 -> 文字起こし -> AI 要約 -> 出力結果格納 -> Web 表示）"
+          "フルスタックエンジニアとしてジョインし、フロントエンドからバックエンドに跨る機能追加や、フロントエンドのライブラリ追加や更新、DBマイグレーションなどを担当。",
+          "ユーザーから上がってきたフィードバックやバグ・機能改善や機能拡張を担当。",
+          "PdMが要件定義をGithub Issueに記載 → リーダーがIssueの割り振り → メンバーがポイント付け・設計・開発・テスト → テックリードがレビュー → PdMがDev環境で確認 という開発フロー"
         ],
         "achievements": [
-          "PoC 開発における迅速な開発サイクル（設計 -> 開発 -> 動作確認 -> 精度検証 -> デプロイ)の実践",
-          "クラウドネイティブなアプリケーションの実装",
-          "音声認識・生成 AI など複数 AI 技術の利用",
-          "ビジネスコンサル・データサイエンティストとの協業",
-          "開発における生成 AI ツールの PoC (Notion や Claude Code などを利用)"
+          "1週間スプリントのスクラム開発(毎週金曜日リリース・毎週水曜日レトロスペクティブ)にて実践的にスクラム開発を実施",
+          "Next.js + NestJS + Hasura(GraphQL)アーキテクチャでの責務の分離。",
+          "アジャイル開発特有の設計やテストのバランス（設計はIssueやNotion, コードコメントに残し、テストは共通処理や重要なビジネスロジックのみ）。",
+          "フルリモート環境下での仕様確認やPRレビュー依頼の進め方、Slackでの非同期コミュニケーション、および必要に応じたオンラインMTGの活用。",
+          "Cursorを使ったAIコーディングのナレッジをチームに共有し、プロンプトや運用方法を毎週のレトロスペクティブで共有。",
+          "SCMシステム開発チーム、SaaSアプリ開発チーム、AIチームの3つのチーム間でのコラボレーションと通じて他チームとの連携"
         ],
-        "tech_stack": "Python / Streamlit / AWS (Bedrock, Transcribe, S3, Lambda, ECS, EventBridge, IAM, VPC) / Docker / GitHub / Claude Code"
+        "tech_stack": "Next.js (TypeScript) / Chakra UI V2 / NestJS(NodeJS) / Hasura GraphQL / MySQL / Drizzle (ORM) / Docker / GCP / Sentry / Dependabot / GitHub / GitHub Actions / Notion / Slack"
       }
     ]
   },
@@ -86,56 +87,35 @@
     ]
   },
   {
-    "company_name": "ミストラルテック株式会社 (副業)",
-    "period": "2024 年 10 月～ 2025 年 6 月",
+    "company_name": "データアナリティクス企業",
+    "period": "2025 年 10 月～ 2025 年 11 月 ",
     "business_content": "情報通信業",
     "capital": "-",
     "employees": "-",
     "listed": "-",
     "projects": [
       {
-        "name": "自社ホームページ制作",
+        "name": "大手通信事業会社コールセンター向け AIプロダクト開発(PoC)",
         "table": {
-          "period": "2025 年 4 月～ 2025 年 6 月",
-          "role": "フロントエンドエンジニア",
+          "period": "2025 年 10 月～ 2025 年 11 月",
+          "role": "バックエンドエンジニア / AIエンジニア",
           "position": "メンバー",
-          "team": "全体 4 名（PM 1 名 / デザイナー 1 名 / 開発 2 名）"
+          "team": "チーム：PM 1 名 / 開発 2 名"
         },
-        "summary": "副業エンジニアとして、自社ホームページ刷新プロジェクトに参画。\nデザイナーが作成した Figma のデザインカンプを元に、Next.js と Tailwind CSS を用いてフロントエンドの実装を担当。",
+        "summary": "データアナリティクス企業にて、生成 AI 技術の PoC および AI プロダクトのプロトタイプ開発を担当。\nPoC 開発チームに所属し、主にプロトタイプ Web アプリケーションの機能追加、バッチの開発・改善を担当。",
         "tasks": [
-          "Figma デザインカンプに基づいた Next.js (TSX) と Tailwind CSS によるコーディング",
-          "デザインカンプのレイアウト実装および Tailwind CSS を用いた詳細なスタイリング・装飾",
-          "Illustrator で作成された素材（写真・アイコン・イラスト）の Web サイトへの組み込み",
-          "レスポンシブデザイン対応",
-          "PM 兼バックエンド担当者との連携によるデザイン再現と画面実装"
+          "プロトタイプ Web アプリケーションの機能追加、バッチの開発・改善",
+          "AWS 環境の構築(ECS, Lambda, EventBridge, S3, IAM, VPC, Transcribe)",
+          "生成 AI プロダクトの AWS デプロイフロー構築（電話音声 -> 文字起こし -> AI 要約 -> 出力結果格納 -> Web 表示）"
         ],
         "achievements": [
-          "デザイナーとの連携による忠実なデザイン再現",
-          "レスポンシブ対応を含むモダンな Web サイト構築"
+          "PoC 開発における迅速な開発サイクル（設計 -> 開発 -> 動作確認 -> 精度検証 -> デプロイ)の実践",
+          "クラウドネイティブなアプリケーションの実装",
+          "音声認識・生成 AI など複数 AI 技術の利用",
+          "ビジネスコンサル・データサイエンティストとの協業",
+          "開発における生成 AI ツールの PoC (Notion や Claude Code などを利用)"
         ],
-        "tech_stack": "Next.js (TypeScript) / TSX / Tailwind CSS / Vercel / GitHub / Slack / Figma / VSCode (Cursor)"
-      },
-      {
-        "name": "自社プロダクト AIチャットボット プロトタイプ開発",
-        "table": {
-          "period": "2024 年 10 月～ 2024 年 12 月",
-          "role": "フロントエンドエンジニア / バックエンドエンジニア",
-          "position": "メンバー",
-          "team": "全体 3 名（開発 3 名）"
-        },
-        "summary": "SaaS 系 AI チャットボットのプロトタイプ開発。\n副業エンジニアとしてジョインし、フロントエンド・バックエンドの両方を担当し、0 -> 1 での開発を実施。",
-        "tasks": [
-          "Figma で作成されたワイヤーフレームを元にした実装",
-          "ログイン・サインアップ・法人登録機能の実装",
-          "shadcn/ui や Tailwind CSS を利用したフロントエンド開発",
-          "Next.js API Routes を使った各画面の CRUD 処理実装",
-          "0 -> 1 でのフロントエンドおよびバックエンドのコーディング"
-        ],
-        "achievements": [
-          "フルスタックでのプロトタイプ開発（Next.js）",
-          "shadcn/ui を活用したモダンな UI 実装"
-        ],
-        "tech_stack": "Next.js (TypeScript) / Tailwind CSS / shadcn/ui / PostgreSQL / GitHub / Slack / Figma / VSCode (Cursor)"
+        "tech_stack": "Python / Streamlit / AWS (Bedrock, Transcribe, S3, Lambda, ECS, EventBridge, IAM, VPC) / Docker / GitHub / Claude Code"
       }
     ]
   },
@@ -156,7 +136,7 @@
           "team": "5名（PM1 / AIエンジニア1 / 開発3）"
         },
         "summary": "職務経歴書と案件のマッチ度を算出する Web アプリケーションの新規機能（メールマッチング機能）開発。\n開発リーダーとして、基本設計からリリースまでの一連の工程を担当し、フロントエンド・バックエンドの実装から STG 環境構築まで幅広く貢献。",
-
+        
         "situation": [
           "SES営業向けエンジニアと案件のマッチングを目的とした自社Webサービスの新規機能開発および、リリース後の継続的な改善・運用を行うフェーズ。",
           "小規模チームでの自社開発",
@@ -278,7 +258,7 @@
     ]
   },
   {
-    "company_name": "現職経由 受託案件 - エヌアイシー・ソフト",
+    "company_name": "現職経由 受託案件 - 通信系システム開発",
     "period": "2023 年 3 月～ 2023 年 6 月",
     "business_content": "情報通信業",
     "capital": "-",
@@ -374,6 +354,60 @@
           "AI 連携機能を持つ Web アプリケーションの構築"
         ],
         "tech_stack": "Python (Flask) / HTML / CSS / JavaScript / MySQL 5.7 / AWS (EC2) / Ubuntu 20.04 / Docker / GitLab / Slack / Redmine / Postman"
+      }
+    ]
+  },
+  {
+    "company_name": "ミストラルテック株式会社 (副業)",
+    "period": "2024 年 10 月～ 2025 年 6 月",
+    "business_content": "情報通信業",
+    "capital": "-",
+    "employees": "-",
+    "listed": "-",
+    "projects": [
+      {
+        "name": "自社ホームページ制作",
+        "table": {
+          "period": "2025 年 4 月～ 2025 年 6 月",
+          "role": "フロントエンドエンジニア",
+          "position": "メンバー",
+          "team": "全体 4 名（PM 1 名 / デザイナー 1 名 / 開発 2 名）"
+        },
+        "summary": "副業エンジニアとして、自社ホームページ刷新プロジェクトに参画。\nデザイナーが作成した Figma のデザインカンプを元に、Next.js と Tailwind CSS を用いてフロントエンドの実装を担当。",
+        "tasks": [
+          "Figma デザインカンプに基づいた Next.js (TSX) と Tailwind CSS によるコーディング",
+          "デザインカンプのレイアウト実装および Tailwind CSS を用いた詳細なスタイリング・装飾",
+          "Illustrator で作成された素材（写真・アイコン・イラスト）の Web サイトへの組み込み",
+          "レスポンシブデザイン対応",
+          "PM 兼バックエンド担当者との連携によるデザイン再現と画面実装"
+        ],
+        "achievements": [
+          "デザイナーとの連携による忠実なデザイン再現",
+          "レスポンシブ対応を含むモダンな Web サイト構築"
+        ],
+        "tech_stack": "Next.js (TypeScript) / TSX / Tailwind CSS / Vercel / GitHub / Slack / Figma / VSCode (Cursor)"
+      },
+      {
+        "name": "自社プロダクト AIチャットボット プロトタイプ開発",
+        "table": {
+          "period": "2024 年 10 月～ 2024 年 12 月",
+          "role": "フロントエンドエンジニア / バックエンドエンジニア",
+          "position": "メンバー",
+          "team": "全体 3 名（開発 3 名）"
+        },
+        "summary": "SaaS 系 AI チャットボットのプロトタイプ開発。\n副業エンジニアとしてジョインし、フロントエンド・バックエンドの両方を担当し、0 -> 1 での開発を実施。",
+        "tasks": [
+          "Figma で作成されたワイヤーフレームを元にした実装",
+          "ログイン・サインアップ・法人登録機能の実装",
+          "shadcn/ui や Tailwind CSS を利用したフロントエンド開発",
+          "Next.js API Routes を使った各画面の CRUD 処理実装",
+          "0 -> 1 でのフロントエンドおよびバックエンドのコーディング"
+        ],
+        "achievements": [
+          "フルスタックでのプロトタイプ開発（Next.js）",
+          "shadcn/ui を活用したモダンな UI 実装"
+        ],
+        "tech_stack": "Next.js (TypeScript) / Tailwind CSS / shadcn/ui / PostgreSQL / GitHub / Slack / Figma / VSCode (Cursor)"
       }
     ]
   }
