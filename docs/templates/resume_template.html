@@ -5,99 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>職務経歴書 - 西部 倖平</title>
     <style>
+      @page {
+        size: A4;
+        margin: 12mm 10mm;
+      }
       body {
         font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
           "Hiragino Sans", Meiryo, sans-serif;
-        line-height: 1.6;
+        font-size: 9px;
+        line-height: 1.4;
         color: #333;
         max-width: 800px;
         margin: 0 auto;
-        padding: 40px;
+        padding: 0;
       }
       h1 {
-        font-size: 28px;
+        font-size: 18px;
         border-bottom: 2px solid #333;
-        padding-bottom: 15px;
-        margin-bottom: 30px;
+        padding-bottom: 6px;
+        margin-bottom: 10px;
       }
       h2 {
-        font-size: 22px;
+        font-size: 14px;
         border-bottom: 1px solid #ddd;
-        padding-bottom: 8px;
-        margin-top: 40px;
-        margin-bottom: 20px;
+        padding-bottom: 4px;
+        margin-top: 14px;
+        margin-bottom: 6px;
         color: #2c3e50;
       }
       h3 {
-        font-size: 18px;
-        margin-top: 30px;
-        margin-bottom: 15px;
+        font-size: 11px;
+        margin-top: 8px;
+        margin-bottom: 4px;
         font-weight: bold;
         color: #34495e;
       }
       h4 {
-        font-size: 16px;
-        margin-top: 25px;
-        margin-bottom: 15px;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-bottom: 4px;
         background-color: #f8f9fa;
-        padding: 8px 15px;
-        border-left: 5px solid #2c3e50;
-        border-radius: 0 4px 4px 0;
+        padding: 3px 8px;
+        border-left: 4px solid #2c3e50;
+        border-radius: 0 3px 3px 0;
       }
       p {
-        margin-bottom: 10px;
+        margin-bottom: 3px;
         white-space: pre-wrap;
       }
       h2 + p {
-        margin-top: 10px;
+        margin-top: 3px;
       }
       p + p {
-        margin-top: 5px;
+        margin-top: 2px;
       }
       ul {
-        margin-bottom: 15px;
-        padding-left: 25px;
+        margin-top: 2px;
+        margin-bottom: 4px;
+        padding-left: 18px;
       }
       li {
-        margin-bottom: 5px;
+        margin-bottom: 1px;
       }
       table {
         width: 100%;
         border-collapse: collapse;
-        margin-bottom: 20px;
-        font-size: 14px;
+        margin-bottom: 6px;
+        font-size: 8px;
       }
       th,
       td {
         border: 1px solid #e0e0e0;
-        padding: 10px 15px;
+        padding: 3px 6px;
         text-align: left;
       }
       th {
         background-color: #f5f7fa;
         font-weight: bold;
-        width: 25%;
+        width: 20%;
         color: #555;
       }
       hr {
         border: 0;
         border-top: 1px solid #eee;
-        margin: 40px 0;
+        margin: 10px 0;
       }
       .header-section {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         border-bottom: 2px solid #333;
-        padding-bottom: 20px;
+        padding-bottom: 6px;
       }
       .header-name {
-        font-size: 32px;
+        font-size: 20px;
         font-weight: bold;
       }
       .header-date {
-        font-size: 14px;
+        font-size: 9px;
         color: #666;
       }
       .company-header {
@@ -105,51 +111,65 @@
         justify-content: space-between;
         align-items: baseline;
         border-bottom: 1px dashed #ccc;
-        padding-bottom: 5px;
-        margin-bottom: 15px;
-        margin-top: 40px;
+        padding-bottom: 3px;
+        margin-bottom: 4px;
+        margin-top: 12px;
       }
       .company-name {
-        font-size: 20px;
+        font-size: 12px;
         font-weight: bold;
       }
       .company-period {
-        font-size: 16px;
+        font-size: 10px;
         font-weight: bold;
         color: #555;
       }
       .company-info {
-        margin-bottom: 20px;
-        font-size: 13px;
+        margin-bottom: 6px;
+        font-size: 8px;
         color: #666;
         background-color: #f9f9f9;
-        padding: 10px;
-        border-radius: 4px;
+        padding: 4px 8px;
+        border-radius: 3px;
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 12px;
       }
       .section-label {
         font-weight: bold;
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 1px;
         color: #444;
-        margin-top: 15px;
+        margin-top: 6px;
       }
       .tech-stack {
         background-color: #f0f4f8;
-        padding: 10px;
-        border-radius: 4px;
+        padding: 4px 8px;
+        border-radius: 3px;
         font-family: Consolas, Monaco, "Andale Mono", monospace;
-        font-size: 13px;
+        font-size: 8px;
         color: #333;
+      }
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 24px;
+      }
+      .skills-grid .skill-column {
+        flex: 1 1 30%;
+        min-width: 150px;
+      }
+      .skills-grid .skill-column h3 {
+        margin-top: 4px;
       }
       @media print {
         body {
-          padding: 0;
           max-width: 100%;
         }
-        .no-break {
+        h2, h3, h4 {
+          page-break-after: avoid;
+        }
+        table, .company-header, .company-info, .tech-stack {
           page-break-inside: avoid;
         }
       }
@@ -182,70 +202,68 @@
 
     <h2>テクニカルスキル</h2>
 
-    <h3>フロントエンド</h3>
-    <ul>
-      <li>TypeScript(4 年), React, Next.js</li>
-      <li>JavaScript(5 年)</li>
-      <li>Tailwind CSS</li>
-      <li>Shadcn/ui</li>
-      <li>Chakra UI V2, V3</li>
-    </ul>
+    <div class="skills-grid">
+      <div class="skill-column">
+        <h3>フロントエンド</h3>
+        <ul>
+          <li>TypeScript(4 年), React, Next.js</li>
+          <li>JavaScript(5 年)</li>
+          <li>Tailwind CSS</li>
+          <li>Shadcn/ui</li>
+          <li>Chakra UI V2, V3</li>
+        </ul>
 
-    <h3>バックエンド</h3>
-    <ul>
-      <li>Python(5 年), Flask, FastAPI, Streamlit</li>
-      <li>TypeScript, NestJS Node.js</li>
-      <li>PHP(3 年), (Laravel)</li>
-      <li>Java(4 ヶ月), Spring Boot</li>
-      <li>C#(6 ヶ月), .Net</li>
-      <li>Go(1 年)</li>
-    </ul>
+        <h3>バックエンド</h3>
+        <ul>
+          <li>Python(5 年), Flask, FastAPI, Streamlit</li>
+          <li>TypeScript, NestJS Node.js</li>
+          <li>PHP(3 年), (Laravel)</li>
+          <li>Go(1 年)</li>
+        </ul>
+      </div>
 
-    <h3>その他</h3>
-    <ul>
-      <li>Hasura(GraphQL)</li>
-      <li>Stripe API</li>
-      <li>Microsoft Entra ID</li>
-      <li>firebase</li>
-    </ul>
+      <div class="skill-column">
+        <h3>インフラ／環境構築</h3>
+        <ul>
+          <li>AWS（2 年）※EC2, ECS, Lambda, SQS, EventBridge, RDS, S3 など</li>
+          <li>Docker / Docker Compose（5 年）</li>
+          <li>Linux コマンド(3 年)</li>
+        </ul>
 
-    <h3>インフラ／環境構築</h3>
-    <ul>
-      <li>
-        Amazon Web Services（2 年）※EC2, ECS, Lambda, SQS, EventBridge, RDS, S3
-        など
-      </li>
-      <li>Docker / Docker Compose（5 年）</li>
-      <li>Linux コマンド(3 年)</li>
-    </ul>
+        <h3>データベース</h3>
+        <ul>
+          <li>MySQL（3 年）</li>
+          <li>PostgreSQL(1 年半)</li>
+        </ul>
 
-    <h3>データベース</h3>
-    <ul>
-      <li>MySQL（3 年）</li>
-      <li>PostgreSQL(1 年半)</li>
-      <li>SQLServer(1 年)</li>
-    </ul>
+        <h3>CI/CD／開発管理</h3>
+        <ul>
+          <li>Gitlab, GitHub, GitHub Actions, Gitlab CI/CD</li>
+        </ul>
+      </div>
 
-    <h3>CI/CD／開発管理</h3>
-    <ul>
-      <li>Gitlab, GitHub, GitHub Actions, Gitlab CI/CD</li>
-    </ul>
+      <div class="skill-column">
+        <h3>その他</h3>
+        <ul>
+          <li>Hasura(GraphQL)</li>
+          <li>Stripe API</li>
+          <li>Microsoft Entra ID</li>
+          <li>firebase</li>
+        </ul>
 
-    <h3>AI ツール活用</h3>
-    <h4>コーディング</h4>
-    <ul>
-      <li>Cursor（2024 年 4 月〜）</li>
-      <li>ClaudeCode（2025 年 8 月〜）</li>
-    </ul>
-    <h4>仕様整理など</h4>
-    <ul>
-      <li>Gemini Pro, Claude（有料プラン）</li>
-    </ul>
+        <h3>AI ツール活用</h3>
+        <ul>
+          <li>Cursor（2024 年 4 月〜）</li>
+          <li>ClaudeCode（2025 年 8 月〜）</li>
+          <li>Gemini Pro, Claude（有料プラン）</li>
+        </ul>
+      </div>
+    </div>
 
     <h2>職務経歴</h2>
 
     {% for company in companies %}
-    <div class="company-section no-break">
+    <div class="company-section">
       <div class="company-header">
         <span class="company-name">{{ company.company_name }}</span>
         <span class="company-period">{{ company.period }}</span>
@@ -259,7 +277,7 @@
       </div>
 
       {% for project in company.projects | sort(attribute='project_id', reverse=True) %}
-      <div class="project-section no-break">
+      <div class="project-section">
         <h4>{{ project.name }}</h4>
 
         <table>
