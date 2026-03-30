@@ -1,886 +1,848 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>職務経歴書 - 西部 倖平</title>
-    <style>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>職務経歴書 - 西部 倖平</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 12mm 10mm;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans", Meiryo, sans-serif;
+      font-size: 9px;
+      line-height: 1.4;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 18px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 6px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 14px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 4px;
+      margin-top: 14px;
+      margin-bottom: 6px;
+      color: #2c3e50;
+    }
+
+    h3 {
+      font-size: 11px;
+      margin-top: 8px;
+      margin-bottom: 4px;
+      font-weight: bold;
+      color: #34495e;
+    }
+
+    h4 {
+      font-size: 10px;
+      margin-top: 10px;
+      margin-bottom: 4px;
+      background-color: #f8f9fa;
+      padding: 3px 8px;
+      border-left: 4px solid #2c3e50;
+      border-radius: 0 3px 3px 0;
+    }
+
+    p {
+      margin-bottom: 3px;
+      white-space: pre-wrap;
+    }
+
+    h2+p {
+      margin-top: 3px;
+    }
+
+    p+p {
+      margin-top: 2px;
+    }
+
+    ul {
+      margin-top: 2px;
+      margin-bottom: 4px;
+      padding-left: 18px;
+    }
+
+    li {
+      margin-bottom: 1px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 6px;
+      font-size: 8px;
+    }
+
+    th,
+    td {
+      border: 1px solid #e0e0e0;
+      padding: 3px 6px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f5f7fa;
+      font-weight: bold;
+      width: 20%;
+      color: #555;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #eee;
+      margin: 10px 0;
+    }
+
+    .header-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 6px;
+    }
+
+    .header-name {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .header-date {
+      font-size: 9px;
+      color: #666;
+    }
+
+    .company-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px dashed #ccc;
+      padding-bottom: 3px;
+      margin-bottom: 4px;
+      margin-top: 12px;
+    }
+
+    .company-name {
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .company-period {
+      font-size: 10px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    .company-info {
+      margin-bottom: 6px;
+      font-size: 8px;
+      color: #666;
+      background-color: #f9f9f9;
+      padding: 4px 8px;
+      border-radius: 3px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .section-label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 1px;
+      color: #444;
+      margin-top: 6px;
+    }
+
+    .tech-stack {
+      background-color: #f0f4f8;
+      padding: 4px 8px;
+      border-radius: 3px;
+      font-family: Consolas, Monaco, "Andale Mono", monospace;
+      font-size: 8px;
+      color: #333;
+    }
+
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 24px;
+    }
+
+    .skills-grid .skill-column {
+      flex: 1 1 30%;
+      min-width: 150px;
+    }
+
+    .skills-grid .skill-column h3 {
+      margin-top: 4px;
+    }
+
+    @media print {
       body {
-        font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
-          "Hiragino Sans", Meiryo, sans-serif;
-        line-height: 1.6;
-        color: #333;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 40px;
+        max-width: 100%;
       }
-      h1 {
-        font-size: 28px;
-        border-bottom: 2px solid #333;
-        padding-bottom: 15px;
-        margin-bottom: 30px;
-      }
-      h2 {
-        font-size: 22px;
-        border-bottom: 1px solid #ddd;
-        padding-bottom: 8px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-        color: #2c3e50;
-      }
-      h3 {
-        font-size: 18px;
-        margin-top: 30px;
-        margin-bottom: 15px;
-        font-weight: bold;
-        color: #34495e;
-      }
+
+      h2,
+      h3,
       h4 {
-        font-size: 16px;
-        margin-top: 25px;
-        margin-bottom: 15px;
-        background-color: #f8f9fa;
-        padding: 8px 15px;
-        border-left: 5px solid #2c3e50;
-        border-radius: 0 4px 4px 0;
+        page-break-after: avoid;
       }
-      p {
-        margin-bottom: 10px;
-        white-space: pre-wrap;
-      }
-      h2 + p {
-        margin-top: 10px;
-      }
-      p + p {
-        margin-top: 5px;
-      }
-      ul {
-        margin-bottom: 15px;
-        padding-left: 25px;
-      }
-      li {
-        margin-bottom: 5px;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-        font-size: 14px;
-      }
-      th,
-      td {
-        border: 1px solid #e0e0e0;
-        padding: 10px 15px;
-        text-align: left;
-      }
-      th {
-        background-color: #f5f7fa;
-        font-weight: bold;
-        width: 25%;
-        color: #555;
-      }
-      hr {
-        border: 0;
-        border-top: 1px solid #eee;
-        margin: 40px 0;
-      }
-      .header-section {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        margin-bottom: 40px;
-        border-bottom: 2px solid #333;
-        padding-bottom: 20px;
-      }
-      .header-name {
-        font-size: 32px;
-        font-weight: bold;
-      }
-      .header-date {
-        font-size: 14px;
-        color: #666;
-      }
-      .company-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        border-bottom: 1px dashed #ccc;
-        padding-bottom: 5px;
-        margin-bottom: 15px;
-        margin-top: 40px;
-      }
-      .company-name {
-        font-size: 20px;
-        font-weight: bold;
-      }
-      .company-period {
-        font-size: 16px;
-        font-weight: bold;
-        color: #555;
-      }
-      .company-info {
-        margin-bottom: 20px;
-        font-size: 13px;
-        color: #666;
-        background-color: #f9f9f9;
-        padding: 10px;
-        border-radius: 4px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-      }
-      .section-label {
-        font-weight: bold;
-        display: block;
-        margin-bottom: 5px;
-        color: #444;
-        margin-top: 15px;
-      }
+
+      table,
+      .company-header,
+      .company-info,
       .tech-stack {
-        background-color: #f0f4f8;
-        padding: 10px;
-        border-radius: 4px;
-        font-family: Consolas, Monaco, "Andale Mono", monospace;
-        font-size: 13px;
-        color: #333;
+        page-break-inside: avoid;
       }
-      @media print {
-        body {
-          padding: 0;
-          max-width: 100%;
-        }
-        .no-break {
-          page-break-inside: avoid;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="header-section">
-      <div class="header-name">職務経歴書</div>
-      <div class="header-date">2026 年 3 月 20 日現在<br />氏名 西部 倖平</div>
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header-section">
+    <div class="header-name">職務経歴書</div>
+    <div class="header-date">2026 年 3 月 20 日現在<br />氏名 西部 倖平</div>
+  </div>
+
+  <h2>職務要約</h2>
+
+  <p>業界5年目のTypeScript/Python を中心としたフルスタックエンジニアです。<br /><br />直近では、<strong>生成 AI を活用した SaaS プロダクト開発</strong>に
+    3案件連続で携わり、OpenAI API・Gemini API との連携実装や、AWS Bedrock Transcribe
+    を活用した音声認識システムの開発経験があります。<br /><br />フロントエンド（Next.js/TypeScript）、バックエンド（FastAPI/Python）、インフラ（AWS
+    ECS/Lambda）を一貫して担当でき、0→1 フェーズでのPdM・デザイナーとの協業経験もあります。<br /><br />また、自社サービス開発では GitLab
+    CI/CD導入によるコスト削減や、PdM・デザイナーとの協業を通じた要件定義・仕様策定にも携わってきました。<br /><br />今後は、特定ドメインで深い知見を築き、技術とビジネスを繋ぐエンジニアとしてキャリアを構築したいと考えています。
+  </p>
+
+  <h2>活かせる経験・知識・技術</h2>
+  <ul>
+    <li>
+      Web
+      アプリケーションにおけるフロントエンドおよびバックエンド一貫した開発経験
+    </li>
+    <li>AWS によるクラウドインフラ運用経験</li>
+    <li>自社プロダクト開発・運用経験</li>
+    <li>デザイナーとの協業を通じたフロントエンド 0 -> 1 開発</li>
+    <li>データサイエンティストとの協業を通じた PoC 経験</li>
+    <li>
+      Cursor や ClaudeCode, Next.js、Go などモダンな技術スタックへの関心
+    </li>
+  </ul>
+
+  <h2>テクニカルスキル</h2>
+
+  <div class="skills-grid">
+    <div class="skill-column">
+      <h3>フロントエンド</h3>
+      <ul>
+        <li>TypeScript(4 年), React, Next.js</li>
+        <li>JavaScript(5 年)</li>
+        <li>Tailwind CSS</li>
+        <li>Shadcn/ui</li>
+        <li>Chakra UI V2, V3</li>
+      </ul>
+
+      <h3>バックエンド</h3>
+      <ul>
+        <li>Python(5 年), Flask, FastAPI, Streamlit</li>
+        <li>TypeScript, NestJS Node.js</li>
+        <li>PHP(3 年), (Laravel)</li>
+        <li>Go(1 年)</li>
+      </ul>
     </div>
 
-    <h2>職務要約</h2>
-
-    <p>業界5年目のTypeScript/Python を中心としたフルスタックエンジニアです。<br /><br />直近では、<strong>生成 AI を活用した SaaS プロダクト開発</strong>に 3案件連続で携わり、OpenAI API・Gemini API との連携実装や、AWS Bedrock Transcribe を活用した音声認識システムの開発経験があります。<br /><br />フロントエンド（Next.js/TypeScript）、バックエンド（FastAPI/Python）、インフラ（AWS ECS/Lambda）を一貫して担当でき、0→1 フェーズでのPdM・デザイナーとの協業経験もあります。<br /><br />また、自社サービス開発では GitLab CI/CD導入によるコスト削減や、PdM・デザイナーとの協業を通じた要件定義・仕様策定にも携わってきました。<br /><br />今後は、特定ドメインで深い知見を築き、技術とビジネスを繋ぐエンジニアとしてキャリアを構築したいと考えています。</p>
-
-    <h2>活かせる経験・知識・技術</h2>
-    <ul>
-      <li>
-        Web
-        アプリケーションにおけるフロントエンドおよびバックエンド一貫した開発経験
-      </li>
-      <li>AWS によるクラウドインフラ運用経験</li>
-      <li>自社プロダクト開発・運用経験</li>
-      <li>デザイナーとの協業を通じたフロントエンド 0 -> 1 開発</li>
-      <li>データサイエンティストとの協業を通じた PoC 経験</li>
-      <li>
-        Cursor や ClaudeCode, Next.js、Go などモダンな技術スタックへの関心
-      </li>
-    </ul>
-
-    <h2>テクニカルスキル</h2>
-
-    <h3>フロントエンド</h3>
-    <ul>
-      <li>TypeScript(4 年), React, Next.js</li>
-      <li>JavaScript(5 年)</li>
-      <li>Tailwind CSS</li>
-      <li>Shadcn/ui</li>
-      <li>Chakra UI V2, V3</li>
-    </ul>
-
-    <h3>バックエンド</h3>
-    <ul>
-      <li>Python(5 年), Flask, FastAPI, Streamlit</li>
-      <li>TypeScript, NestJS Node.js</li>
-      <li>PHP(3 年), (Laravel)</li>
-      <li>Java(4 ヶ月), Spring Boot</li>
-      <li>C#(6 ヶ月), .Net</li>
-      <li>Go(1 年)</li>
-    </ul>
-
-    <h3>その他</h3>
-    <ul>
-      <li>Hasura(GraphQL)</li>
-      <li>Stripe API</li>
-      <li>Microsoft Entra ID</li>
-      <li>firebase</li>
-    </ul>
-
-    <h3>インフラ／環境構築</h3>
-    <ul>
-      <li>
-        Amazon Web Services（2 年）※EC2, ECS, Lambda, SQS, EventBridge, RDS, S3
-        など
-      </li>
-      <li>Docker / Docker Compose（5 年）</li>
-      <li>Linux コマンド(3 年)</li>
-    </ul>
-
-    <h3>データベース</h3>
-    <ul>
-      <li>MySQL（3 年）</li>
-      <li>PostgreSQL(1 年半)</li>
-      <li>SQLServer(1 年)</li>
-    </ul>
-
-    <h3>CI/CD／開発管理</h3>
-    <ul>
-      <li>Gitlab, GitHub, GitHub Actions, Gitlab CI/CD</li>
-    </ul>
-
-    <h3>AI ツール活用</h3>
-    <h4>コーディング</h4>
-    <ul>
-      <li>Cursor（2024 年 4 月〜）</li>
-      <li>ClaudeCode（2025 年 8 月〜）</li>
-    </ul>
-    <h4>仕様整理など</h4>
-    <ul>
-      <li>Gemini Pro, Claude（有料プラン）</li>
-    </ul>
-
-    <h2>職務経歴</h2>
-
-    <div class="company-section no-break">
-      <div class="company-header">
-        <span class="company-name">株式会社ripra (副業)</span>
-        <span class="company-period">2025 年 8 月～現在</span>
-      </div>
-
-      <div class="company-info">
-        <span><strong>事業内容:</strong> 情報通信業</span>
-        <span><strong>資本金:</strong> -</span>
-        <span><strong>従業員数:</strong> -</span>
-        <span><strong>上場:</strong> -</span>
-      </div>
-
-      <div class="project-section no-break">
-        <h4>ケアマネージャー向け業務支援アプリ開発</h4>
-
-        <table>
-          <tr>
-            <th>期間</th>
-            <td>2025 年 8 月～現在</td>
-          </tr>
-          <tr>
-            <th>職種</th>
-            <td>フロントエンドエンジニア</td>
-          </tr>
-          <tr>
-            <th>役割</th>
-            <td>メンバー（フロントエンドリード）</td>
-          </tr>
-          <tr>
-            <th>体制・組織規模</th>
-            <td>全体 5 名（PM 1 名 / デザイナー 1 名 / 開発 3 名 [FE/BE/AI]）</td>
-          </tr>
-        </table>
-
-        <span class="section-label">プロジェクト概要</span>
-        <p>ケアマネージャー向けの業務支援アプリ（B2B SaaS）。<br />音声入力による自動記録機能やユーザー管理、面談管理、スケジュール管理機能、およびサブスクリプション課金機能などを実装。</p>
-        
-        <span class="section-label">背景・課題</span>
-        <ul>
-          <li>ケアマネージャーの業務は、面談記録の手入力負荷が高い、スケジュール管理や情報分散により業務効率が低下しているといった課題を抱えており、音声入力・AI活用による業務効率化を目的としたSaaSの開発が進められていた。</li>
-          <li>プロジェクトは副業エンジニアが集まっていたチームであり、明確に担当領域を分けることで円滑に進めることが重要だった。</li>
-        </ul>
-
-        <span class="section-label">自分のタスク</span>
-        <ul>
-          <li>副業フロントエンドエンジニアとして参画し、以下を担当。</li>
-          <li>Next.js + Chakra UI V3 を用いた Web アプリケーションのフロントエンド実装</li>
-          <li>Go 製 API と連携するフロント設計・実装</li>
-          <li>App Router / SSR / Server Actions を活用したパフォーマンスと開発体験の最適化</li>
-          <li>PM・デザイナー・バックエンドとの連携を前提とした機能実装</li>
-        </ul>
-
-        <span class="section-label">具体的なアクション</span>
-        <ul>
-          <li>責務分離を意識した実装</li>
-          <li>バックエンド（Go API）に処理を集約し、フロントは表示・操作・状態管理に集中。</li>
-          <li>課金ステータス（trialing, active, past_due等）に応じた機能制限（アクセス制御）ロジックをフロントエンドで構築。</li>
-          <li>Next.js App Routerの特性を活かした最適化</li>
-          <li>SSRとServer Actionsを使い、クライアント側の状態管理を最小化。</li>
-          <li>音声入力・AI処理結果表示など、UXを意識した画面遷移と描画設計。</li>
-          <li>AI駆動開発の実践</li>
-          <li>Claude Codeを活用し、UI実装やリファクタリングの初速を向上。単なるコード生成に留めず、設計意図を確認しながら人手で調整。</li>
-          <li>チーム開発でのコミュニケーション</li>
-          <li>仕様不明点は早期にPM・デザイナーへ確認し、手戻りを防止。非同期中心の副業体制でも進捗が止まらないよう意識。</li>
-        </ul>
-
-        <span class="section-label">成果・影響</span>
-        <ul>
-          <li>スケジュール管理、面談録音〜AI文字起こし・要約、AIチャットボット、質問板など主要機能のフロント実装を完遂。</li>
-          <li>App Router / Server Actionsを活用した構成により、UIレスポンスと実装効率を両立。</li>
-          <li>マネタイズの要となるStripeを用いた決済基盤（30日間トライアル〜自動課金〜カスタマーポータル）のシステム連携仕様を調査し、モック画面をPMへ連携。API仕様書を作成しバックエンドエンジニアへ連携</li>
-          <li>明確な役割分担のチームにおいて、フロントエンド担当として安定した開発速度を維持し、AIエージェントを活用することで限られた時間でも高い生産性を実現。</li>
-        </ul>
-
-        <span class="section-label">利用技術</span>
-        <div class="tech-stack">Next.js (TypeScript) / Chakra UI V3 / Golang / Python / MySQL / Docker / AWS / Firebase / Figma / Claude Code / Stripe API</div>
-      </div>
-    </div>
-    <div class="company-section no-break">
-      <div class="company-header">
-        <span class="company-name">ファイナンシャルテクノロジーシステム株式会社</span>
-        <span class="company-period">2020 年 9 月～現在</span>
-      </div>
-
-      <div class="company-info">
-        <span><strong>事業内容:</strong> 情報通信業</span>
-        <span><strong>資本金:</strong> -</span>
-        <span><strong>従業員数:</strong> -</span>
-        <span><strong>上場:</strong> -</span>
-      </div>
-
-      <div class="project-section no-break">
-        <h4>建築部材の調達プラットフォーム</h4>
-
-        <table>
-          <tr>
-            <th>期間</th>
-            <td>2026 年 1 月～進行中</td>
-          </tr>
-          <tr>
-            <th>職種</th>
-            <td>フルスタックエンジニア</td>
-          </tr>
-          <tr>
-            <th>役割</th>
-            <td>メンバー</td>
-          </tr>
-          <tr>
-            <th>体制・組織規模</th>
-            <td>全体 10 名（PdM 1 名 / テックリード 1名 / リーダー1名 / メンバー 7名）</td>
-          </tr>
-        </table>
-
-        <span class="section-label">プロジェクト概要</span>
-        <p>建築部材の調達プラットフォームのSCMシステム&SaaS開発。<br />リリース後の顧客要望対応や機能追加、継続的な改善を担当。</p>
-
-        <span class="section-label">担当業務</span>
-        <ul>
-          <li>フルスタックエンジニアとしてジョインし、フロントエンドからバックエンドに跨る機能追加や、フロントエンドのライブラリ追加や更新、DBマイグレーションなどを担当。</li>
-          <li>ユーザーから上がってきたフィードバックやバグ・機能改善や機能拡張を担当。</li>
-          <li>PdMが要件定義をGithub Issueに記載 → リーダーがIssueの割り振り → メンバーがポイント付け・設計・開発・テスト → テックリードがレビュー → PdMがDev環境で確認 という開発フロー</li>
-        </ul>
-
-        <span class="section-label">実績・取り組み</span>
-        <ul>
-          <li>1週間スプリントのスクラム開発(毎週金曜日リリース・毎週水曜日レトロスペクティブ)にて実践的にスクラム開発を実施</li>
-          <li>Next.js + NestJS + Hasura(GraphQL)アーキテクチャでの責務の分離。</li>
-          <li>アジャイル開発特有の設計やテストのバランス（設計はIssueやNotion, コードコメントに残し、テストは共通処理や重要なビジネスロジックのみ）。</li>
-          <li>フルリモート環境下での仕様確認やPRレビュー依頼の進め方、Slackでの非同期コミュニケーション、および必要に応じたオンラインMTGの活用。</li>
-          <li>Cursorを使ったAIコーディングのナレッジをチームに共有し、プロンプトや運用方法を毎週のレトロスペクティブで共有。</li>
-          <li>SCMシステム開発チーム、SaaSアプリ開発チーム、AIチームの3つのチーム間でのコラボレーションと通じて他チームとの連携</li>
-        </ul>
-
-        <span class="section-label">利用技術</span>
-        <div class="tech-stack">TypeScript(Next.js, NestJS) / Chakra UI V2 / NodeJS / Hasura GraphQL / Python (FastAPI) /PostgreSQL / Drizzle (ORM) / Docker / GCP / Sentry / Dependabot / GitHub / GitHub Actions / Notion / Slack</div>
-      </div>
-      <div class="project-section no-break">
-        <h4>大手通信事業会社コールセンター向け AIプロダクト開発(PoC)</h4>
-
-        <table>
-          <tr>
-            <th>期間</th>
-            <td>2025 年 10 月～ 2025 年 11 月</td>
-          </tr>
-          <tr>
-            <th>職種</th>
-            <td>バックエンドエンジニア / AIエンジニア</td>
-          </tr>
-          <tr>
-            <th>役割</th>
-            <td>メンバー</td>
-          </tr>
-          <tr>
-            <th>体制・組織規模</th>
-            <td>チーム：PM 1 名 / 開発 2 名</td>
-          </tr>
-        </table>
-
-        <span class="section-label">プロジェクト概要</span>
-        <p>データアナリティクス企業にて、生成 AI 技術の PoC および AI プロダクトのプロトタイプ開発を担当。<br />PoC 開発チームに所属し、主にプロトタイプ Web アプリケーションの機能追加、バッチの開発・改善を担当。</p>
-
-        <span class="section-label">担当業務</span>
-        <ul>
-          <li>プロトタイプ Web アプリケーションの機能追加、バッチの開発・改善</li>
-          <li>AWS 環境の構築(ECS, Lambda, EventBridge, S3, IAM, VPC, Transcribe)</li>
-          <li>生成 AI プロダクトの AWS デプロイフロー構築（電話音声 -> 文字起こし -> AI 要約 -> 出力結果格納 -> Web 表示）</li>
-        </ul>
-
-        <span class="section-label">実績・取り組み</span>
-        <ul>
-          <li>PoC 開発における迅速な開発サイクル（設計 -> 開発 -> 動作確認 -> 精度検証 -> デプロイ)の実践</li>
-          <li>クラウドネイティブなアプリケーションの実装</li>
-          <li>音声認識・生成 AI など複数 AI 技術の利用</li>
-          <li>ビジネスコンサル・データサイエンティストとの協業</li>
-          <li>開発における生成 AI ツールの PoC (Notion や Claude Code などを利用)</li>
-        </ul>
-
-        <span class="section-label">利用技術</span>
-        <div class="tech-stack">Python / Streamlit / AWS (Bedrock, Transcribe, S3, Lambda, ECS, EventBridge, IAM, VPC) / Docker / GitHub / Claude Code</div>
-      </div>
-      <div class="project-section no-break">
-        <h4>FTS-Future-Connect（自社サービス）</h4>
-
-        <table>
-          <tr>
-            <th>期間</th>
-            <td>2024年11月 ～ 2025年12月</td>
-          </tr>
-          <tr>
-            <th>職種</th>
-            <td>フルスタックエンジニア</td>
-          </tr>
-          <tr>
-            <th>役割</th>
-            <td>リーダー（後半はメンバー）</td>
-          </tr>
-          <tr>
-            <th>体制・組織規模</th>
-            <td>5名（PM1 / AIエンジニア1 / 開発3）</td>
-          </tr>
-        </table>
-
-        <span class="section-label">プロジェクト概要</span>
-        <p>職務経歴書と案件のマッチ度を算出する Web アプリケーションの新規機能（メールマッチング機能）開発。<br />開発リーダーとして、基本設計からリリースまでの一連の工程を担当し、フロントエンド・バックエンドの実装から STG 環境構築まで幅広く貢献。</p>
-        
-        <span class="section-label">背景・課題</span>
-        <ul>
-          <li>SES営業向けエンジニアと案件のマッチングを目的とした自社Webサービスの新規機能開発および、リリース後の継続的な改善・運用を行うフェーズ。</li>
-          <li>小規模チームでの自社開発</li>
-          <li>生成AI（LLM）を活用したマッチング機能が事業の中核</li>
-          <li>リリース後、顧客要望への迅速な対応と開発体制の整備が課題</li>
-        </ul>
-
-        <span class="section-label">自分のタスク</span>
-        <ul>
-          <li>新規機能（メールマッチング機能）の設計〜リリースをリード</li>
-          <li>フロントエンド・バックエンドを横断した実装</li>
-          <li>リリース後の運用負荷を下げるための DevOps / CI/CD 整備</li>
-          <li>顧客要望を反映しながら、短いスパンでの改善サイクルを確立</li>
-        </ul>
-
-        <span class="section-label">具体的なアクション</span>
-        <ul>
-          <li>① 新規機能開発（リーダーとして）</li>
-          <li>DB設計、API仕様書、画面遷移図などの基本設計を担当</li>
-          <li>Next.js（TypeScript）によるフロント・バックエンド一体型開発</li>
-          <li>Python（FastAPI）でのAPI実装、メール送信（IMAP/SMTP）、暗号化処理</li>
-          <li>LLM（Gemini / OpenAI）を用いたマッチングロジック・プロンプト設計</li>
-          <li>Jestによる単体テスト、Golangバッチとの結合テスト、負荷テストを実施</li>
-          <li>EC2・Docker構成でのSTG環境構築とデプロイ</li>
-          <li>② リリース後の運用・DevOps改善</li>
-          <li>CI/CD を構築し、1か月おきの安定したリリースサイクルを確立</li>
-          <li>Microsoft OAuth2 認証機能の追加</li>
-          <li>AIによる案件分類プロンプトの改善</li>
-          <li>UI/UX 改善、運用管理画面の機能拡張</li>
-          <li>Lambda によるユーザー数集計バッチを実装</li>
-          <li>運用チームとの定期MTGを通じた改善要望の整理・反映</li>
-        </ul>
-
-        <span class="section-label">成果・影響</span>
-        <ul>
-          <li>新規機能を設計からリリースまで一貫して完遂</li>
-          <li>短いスパンでのマイナーアップデートが可能な 開発・運用基盤を構築</li>
-          <li>運用チームとの連携強化により、改善リードタイムを短縮</li>
-          <li>フルスタック＋AWS運用経験を活かし、プロダクト全体を俯瞰した開発に貢献</li>
-        </ul>
-
-        <span class="section-label">利用技術</span>
-        <div class="tech-stack">Next.js（TypeScript） / Tailwind CSS / Python（FastAPI） / Golang / PostgreSQL / Prisma / Docker / AWS（EC2, S3, RDS, Lambda, Redis, CloudWatch） / GitLab / Redmine / Google Chat / Slack / Vim</div>
-      </div>
-      <div class="project-section no-break">
-        <h4>自社サービス「FTS AI Platform」の開発・運用・アーキテクチャ刷新</h4>
-
-        <table>
-          <tr>
-            <th>期間</th>
-            <td>2020 年 9 月～ 2021 年 3 月（QA・運用保守）、2022 年 4 月～ 2022 年 12 月（マイクロサービス化）</td>
-          </tr>
-          <tr>
-            <th>職種</th>
-            <td>バックエンドエンジニア / フロントエンドエンジニア / QA</td>
-          </tr>
-          <tr>
-            <th>役割</th>
-            <td>メンバー（仕様整理・実装・テスト主導）</td>
-          </tr>
-          <tr>
-            <th>体制・組織規模</th>
-            <td>全体 7〜10 名 / チーム 3〜4 名</td>
-          </tr>
-        </table>
-
-        <span class="section-label">プロジェクト概要</span>
-        <p>画像解析AIとOCR技術を組み合わせた帳票データ化プラットフォーム（自社SaaS）の開発・運用。<br />プロジェクト参画初期は品質保証（QA）やバグ修正を通じてプロダクトのドメイン知識を習得。その後、保守性・拡張性の課題を解決するための大規模な「マイクロサービス化・リファクタリング」プロジェクトにおいて、設計から実装までを担う中核メンバーとして参画。</p>
-        
-        <span class="section-label">背景・課題</span>
-        <ul>
-          <li>自社R&D部署が検証するAIモデルをもとにプロダクト開発。AIの精度向上に時間がかかっていた。</li>
-          <li>設計当初のアーキテクチャ(PHP Laravel)からモダンな構成(React + FastAPI)へのリアーキテクチャによる開発スピードの向上が求められていた。</li>
-        </ul>
-
-        <span class="section-label">自分のタスク</span>
-        <ul>
-          <li>【フェーズ1: QA・運用保守】プロダクトのQA担当として、テスト設計・実行・不具合対応・AIモデルの学習データ作成を担当</li>
-          <li>【フェーズ2: マイクロサービス化】既存システムの仕様整理から、フロントエンド実装・テストまでを一貫して担当する中核メンバーとして参画</li>
-        </ul>
-
-        <span class="section-label">具体的なアクション</span>
-        <ul>
-          <li>【フェーズ1: 品質保証・AI学習データ作成】（2020年9月〜2021年3月）</li>
-          <li>自社サービスの総合テスト・不具合対応（テストケースの作成・実行）</li>
-          <li>不具合の調査・原因特定・修正</li>
-          <li>AIモデルの学習データ作成（アノテーション作業）</li>
-          <li>Redmineや Git issue を用いたタスク・課題管理</li>
-          <li>【フェーズ2: マイクロサービス化・リアーキテクチャ】（2022年4月〜12月）</li>
-          <li>既存システムの仕様整理・テストケース作成・API仕様書の作成</li>
-          <li>フロントエンド（React）のバグ修正・新規ユーザー追加処理の実装</li>
-          <li>アカウント権限の再設計および機能制限の実装</li>
-          <li>結合テスト〜不具合修正・総合テスト実施</li>
-        </ul>
-
-        <span class="section-label">成果・影響</span>
-        <ul>
-          <li>アカウント権限再設計によりSaaSとしてのセキュリティと保守性を大幅に向上させた。</li>
-          <li>AIの学習データ作成（アノテーション）作業から、精度検証を経験し、AIプロダクト特有の開発を経験。</li>
-        </ul>
-
-        <span class="section-label">利用技術</span>
-        <div class="tech-stack">PHP (Laravel) / Python (FastAPI) / React (JavaScript) / MySQL 5.7 / Docker / AWS (EC2) / Ubuntu 20.04 / GitLab / Slack / Redmine / Postman</div>
-      </div>
-    </div>
-    <div class="company-section no-break">
-      <div class="company-header">
-        <span class="company-name">現職経由 受託案件 - 硝子商社株式会社</span>
-        <span class="company-period">2023 年 7 月～ 2024 年 10 月</span>
-      </div>
-
-      <div class="company-info">
-        <span><strong>事業内容:</strong> 商社</span>
-        <span><strong>資本金:</strong> -</span>
-        <span><strong>従業員数:</strong> -</span>
-        <span><strong>上場:</strong> -</span>
-      </div>
-
-      <div class="project-section no-break">
-        <h4>メール通知業務自動化システム開発 / 基幹系業務システム保守運用</h4>
-
-        <table>
-          <tr>
-            <th>期間</th>
-            <td>2023 年 7 月～ 2024 年 10 月</td>
-          </tr>
-          <tr>
-            <th>職種</th>
-            <td>バックエンドエンジニア / 運用保守</td>
-          </tr>
-          <tr>
-            <th>役割</th>
-            <td>メンバー</td>
-          </tr>
-          <tr>
-            <th>体制・組織規模</th>
-            <td>全体 3 名（PM 1 名 / 開発 2 名）</td>
-          </tr>
-        </table>
-
-        <span class="section-label">プロジェクト概要</span>
-        <p>基幹系業務システムの保守運用技術支援および、基幹システム連動のメール通知自動化システムの開発・機能追加。<br />2024 年 6 月以降は他プロジェクトと並行して運用・保守を継続。</p>
-
-        <span class="section-label">担当業務</span>
-        <ul>
-          <li>基幹系業務システムの保守・運用（VB, C#, SQL Server）</li>
-          <li>不具合発生時のログ解析、原因特定、トラブルシューティング</li>
-          <li>データ修正 SQL の作成・実行</li>
-          <li>メール通知業務自動化システムの開発・機能追加（Laravel）</li>
-          <li>機能改善やリファクタリングの提案</li>
-          <li>追加機能の要件定義から運用までの一貫した担当</li>
-          <li>Docker, Shell スクリプト, cron を用いたデプロイ・運用環境構築</li>
-        </ul>
-
-        <span class="section-label">実績・取り組み</span>
-        <ul>
-          <li>基幹システムの安定稼働への貢献（不具合解析・データ修正）</li>
-          <li>メール通知業務の自動化による業務効率化</li>
-          <li>レガシーシステム（VB, C#）とモダン技術（Laravel, Docker）の併用によるシステム改善</li>
-        </ul>
-
-        <span class="section-label">利用技術</span>
-        <div class="tech-stack">PHP (Laravel) / VB / C# (.NET) / Shell / SQL Server / MySQL / AWS (EC2) / Windows Server / Docker / GitLab / Slack / Redmine / SVN / SSMS / VSCode / Visual Studio</div>
-      </div>
-    </div>
-    <div class="company-section no-break">
-      <div class="company-header">
-        <span class="company-name">現職経由 受託案件 - 通信系システム開発</span>
-        <span class="company-period">2023 年 3 月～ 2023 年 6 月</span>
-      </div>
-
-      <div class="company-info">
-        <span><strong>事業内容:</strong> 情報通信業</span>
-        <span><strong>資本金:</strong> -</span>
-        <span><strong>従業員数:</strong> -</span>
-        <span><strong>上場:</strong> -</span>
-      </div>
-
-      <div class="project-section no-break">
-        <h4>インボイス制度適応に伴う新規業務システムの開発</h4>
-
-        <table>
-          <tr>
-            <th>期間</th>
-            <td>2023 年 3 月～ 2023 年 6 月</td>
-          </tr>
-          <tr>
-            <th>職種</th>
-            <td>バックエンドエンジニア / サブリーダー</td>
-          </tr>
-          <tr>
-            <th>役割</th>
-            <td>サブリーダー</td>
-          </tr>
-          <tr>
-            <th>体制・組織規模</th>
-            <td>全体 約 40 名 / チーム 8 名</td>
-          </tr>
-        </table>
-
-        <span class="section-label">プロジェクト概要</span>
-        <p>インボイス制度適応に伴う適格請求書 PDF 作成業務処理およびバッチ処理の開発。<br />COBOL で書かれた既存システムとの連携を含むウォーターフォール型開発。</p>
-
-        <span class="section-label">担当業務</span>
-        <ul>
-          <li>適格請求書 PDF 作成処理の詳細設計〜単体テスト</li>
-          <li>Java, Spring を用いた業務ロジックの実装</li>
-          <li>単体テスト仕様書の作成及び実行</li>
-          <li>顧客との打ち合わせや会議の主導、進捗報告</li>
-          <li>チームメンバーへの情報連携、課題解決の提案</li>
-        </ul>
-
-        <span class="section-label">実績・取り組み</span>
-        <ul>
-          <li>サブリーダーとしてのチームマネジメントおよび顧客対応</li>
-          <li>インボイス制度対応の業務システム実装</li>
-        </ul>
-
-        <span class="section-label">利用技術</span>
-        <div class="tech-stack">Java / Spring / PostgreSQL / Eclipse / Windows 10 / SVN / Redmine</div>
-      </div>
-    </div>
-    <div class="company-section no-break">
-      <div class="company-header">
-        <span class="company-name">現職経由 受託案件 - NII研究所</span>
-        <span class="company-period">2021 年 4 月～ 2023 年 3 月</span>
-      </div>
-
-      <div class="company-info">
-        <span><strong>事業内容:</strong> 教育・研究機関</span>
-        <span><strong>資本金:</strong> -</span>
-        <span><strong>従業員数:</strong> -</span>
-        <span><strong>上場:</strong> -</span>
-      </div>
-
-      <div class="project-section no-break">
-        <h4>論文管理システムの新規開発・機能拡張</h4>
-
-        <table>
-          <tr>
-            <th>期間</th>
-            <td>2021 年 4 月～ 2021 年 11 月（新規開発）、2023 年 1 月～ 2023 年 3 月（機能拡張）</td>
-          </tr>
-          <tr>
-            <th>職種</th>
-            <td>フロントエンドエンジニア / バックエンドエンジニア</td>
-          </tr>
-          <tr>
-            <th>役割</th>
-            <td>Webアプリケーション開発全般（1人月）</td>
-          </tr>
-          <tr>
-            <th>体制・組織規模</th>
-            <td>全体 3 名（PM 1 名 / AIエンジニア 1 名 / Web開発 1 名 [＝自分]）</td>
-          </tr>
-        </table>
-
-        <span class="section-label">プロジェクト概要</span>
-        <p>教育・研究機関向けの論文管理およびユーザー管理を行うWebシステムの新規開発、および運用開始後の機能拡張プロジェクト。<br />単なる論文管理にとどまらず、AIエンジニアが開発した「論文要約・サムネイル自動生成」「NGワードチェック」などのAIモデルをWebシステムに統合し、ユーザーが直感的に利用できるアプリケーションとして構築。</p>
-
-        <span class="section-label">担当業務</span>
-        <ul>
-          <li>【新規開発】フロントエンドおよびバックエンドの実装（画面作成、ルーティング、ログイン機能実装、ユーザー権限設定）</li>
-          <li>【新規開発】Python (Flask) を用いたバックエンド実装および HTML/CSS/JavaScript による UI 作成</li>
-          <li>【新規開発】AI モデル（論文要約・サムネイル自動生成）との連携実装</li>
-          <li>【新規開発】システム全体のテストとデバッグ</li>
-          <li>【機能拡張】提案依頼書に対する修正概要書の作成</li>
-          <li>【機能拡張】Admin ユーザーによる管理画面の追加</li>
-          <li>【機能拡張】AI による要約と NG ワードのチェック機能、公開・非公開設定機能の追加（AI モデル以外）</li>
-          <li>【機能拡張】メールサーバーの設定およびメール送信機能の不具合修正</li>
-          <li>【機能拡張】各種テストケースの作成・実施</li>
-          <li>【機能拡張】Docker や Linux コマンドを用いたデプロイ手順書の作成</li>
-        </ul>
-
-        <span class="section-label">実績・取り組み</span>
-        <ul>
-          <li>論文管理システムの 0 → 1 開発（フルスタックでの実装担当）</li>
-          <li>AI 連携機能（論文要約・NGワードチェック・サムネイル自動生成）を持つ Web アプリケーションの構築</li>
-          <li>デプロイ手順のドキュメント化により、属人化を防ぎ、運用保守の効率を大幅に向上させた。</li>
-        </ul>
-
-        <span class="section-label">利用技術</span>
-        <div class="tech-stack">Python (Flask) / HTML / CSS / JavaScript / MySQL 5.7 / AWS (EC2) / Ubuntu 20.04 / Docker / GitLab / Slack / Redmine / Postman</div>
-      </div>
-    </div>
-    <div class="company-section no-break">
-      <div class="company-header">
-        <span class="company-name">ミストラルテック株式会社 (副業)</span>
-        <span class="company-period">2024 年 10 月～ 2025 年 6 月</span>
-      </div>
-
-      <div class="company-info">
-        <span><strong>事業内容:</strong> 情報通信業</span>
-        <span><strong>資本金:</strong> -</span>
-        <span><strong>従業員数:</strong> -</span>
-        <span><strong>上場:</strong> -</span>
-      </div>
-
-      <div class="project-section no-break">
-        <h4>自社ホームページ制作</h4>
-
-        <table>
-          <tr>
-            <th>期間</th>
-            <td>2025 年 4 月～ 2025 年 6 月</td>
-          </tr>
-          <tr>
-            <th>職種</th>
-            <td>フロントエンドエンジニア</td>
-          </tr>
-          <tr>
-            <th>役割</th>
-            <td>メンバー</td>
-          </tr>
-          <tr>
-            <th>体制・組織規模</th>
-            <td>全体 4 名（PM 1 名 / デザイナー 1 名 / 開発 2 名）</td>
-          </tr>
-        </table>
-
-        <span class="section-label">プロジェクト概要</span>
-        <p>副業エンジニアとして、自社ホームページ刷新プロジェクトに参画。<br />デザイナーが作成した Figma のデザインカンプを元に、Next.js と Tailwind CSS を用いてフロントエンドの実装を担当。</p>
-
-        <span class="section-label">担当業務</span>
-        <ul>
-          <li>Figma デザインカンプに基づいた Next.js (TSX) と Tailwind CSS によるコーディング</li>
-          <li>デザインカンプのレイアウト実装および Tailwind CSS を用いた詳細なスタイリング・装飾</li>
-          <li>Illustrator で作成された素材（写真・アイコン・イラスト）の Web サイトへの組み込み</li>
-          <li>レスポンシブデザイン対応</li>
-          <li>PM 兼バックエンド担当者との連携によるデザイン再現と画面実装</li>
-        </ul>
-
-        <span class="section-label">実績・取り組み</span>
-        <ul>
-          <li>デザイナーとの連携による忠実なデザイン再現</li>
-          <li>レスポンシブ対応を含むモダンな Web サイト構築</li>
-        </ul>
-
-        <span class="section-label">利用技術</span>
-        <div class="tech-stack">Next.js (TypeScript) / TSX / Tailwind CSS / Vercel / GitHub / Slack / Figma / VSCode (Cursor)</div>
-      </div>
-      <div class="project-section no-break">
-        <h4>自社プロダクト AIチャットボット プロトタイプ開発</h4>
-
-        <table>
-          <tr>
-            <th>期間</th>
-            <td>2024 年 10 月～ 2024 年 12 月</td>
-          </tr>
-          <tr>
-            <th>職種</th>
-            <td>フロントエンドエンジニア / バックエンドエンジニア</td>
-          </tr>
-          <tr>
-            <th>役割</th>
-            <td>メンバー</td>
-          </tr>
-          <tr>
-            <th>体制・組織規模</th>
-            <td>全体 3 名（開発 3 名）</td>
-          </tr>
-        </table>
-
-        <span class="section-label">プロジェクト概要</span>
-        <p>SaaS 系 AI チャットボットのプロトタイプ開発。<br />副業エンジニアとしてジョインし、フロントエンド・バックエンドの両方を担当し、0 -> 1 での開発を実施。</p>
-
-        <span class="section-label">担当業務</span>
-        <ul>
-          <li>Figma で作成されたワイヤーフレームを元にした実装</li>
-          <li>ログイン・サインアップ・法人登録機能の実装</li>
-          <li>shadcn/ui や Tailwind CSS を利用したフロントエンド開発</li>
-          <li>Next.js API Routes を使った各画面の CRUD 処理実装</li>
-          <li>0 -> 1 でのフロントエンドおよびバックエンドのコーディング</li>
-        </ul>
-
-        <span class="section-label">実績・取り組み</span>
-        <ul>
-          <li>フルスタックでのプロトタイプ開発（Next.js）</li>
-          <li>shadcn/ui を活用したモダンな UI 実装</li>
-        </ul>
-
-        <span class="section-label">利用技術</span>
-        <div class="tech-stack">Next.js (TypeScript) / Tailwind CSS / shadcn/ui / PostgreSQL / GitHub / Slack / Figma / VSCode (Cursor)</div>
-      </div>
+    <div class="skill-column">
+      <h3>インフラ／環境構築</h3>
+      <ul>
+        <li>AWS（2 年）※EC2, ECS, Lambda, SQS, EventBridge, RDS, S3 など</li>
+        <li>Docker / Docker Compose（5 年）</li>
+        <li>Linux コマンド(3 年)</li>
+      </ul>
+
+      <h3>データベース</h3>
+      <ul>
+        <li>MySQL（3 年）</li>
+        <li>PostgreSQL(1 年半)</li>
+      </ul>
+
+      <h3>CI/CD／開発管理</h3>
+      <ul>
+        <li>Gitlab, GitHub, GitHub Actions, Gitlab CI/CD</li>
+      </ul>
     </div>
 
-    <h2>自己 PR</h2>
+    <div class="skill-column">
+      <h3>その他</h3>
+      <ul>
+        <li>Hasura(GraphQL)</li>
+        <li>Stripe API</li>
+        <li>Microsoft Entra ID</li>
+        <li>firebase</li>
+      </ul>
 
-    <h3>課題への着眼と改善推進力</h3>
-    <p>
-      自社プロダクトの開発では特にコスト意識を強く持ち、コストに対する改善に貢献してきました。
-    </p>
+      <h3>AI ツール活用</h3>
+      <ul>
+        <li>Cursor（2024 年 4 月〜）</li>
+        <li>ClaudeCode（2025 年 8 月〜）</li>
+        <li>Gemini Pro, Claude（有料プラン）</li>
+      </ul>
+    </div>
+  </div>
 
-    <h4>見えないコスト対するアプローチ</h4>
-    <p>
-      AWS EC2へ手動でデプロイ、テストの実施をしており、属人化、目視確認による作業工数増加という
-      業務課題がありました。
-      Gitlab CI/CD を活用し、 eslintによるコードの静的解析、jestによるテストの自動化、 
-      AWS SAMによるデプロイの自動化を導入することでこれらの作業工数を削減しました。
-      新規機能の開発を急ぐ経営陣やマネージャーへ、これらを導入する必要性を論理的に伝えることでチーム内の業務効率化と品質担保に貢献しました。
-    </p>
+  <h2>職務経歴</h2>
 
-    <h4>サーバーコストに対するアプローチ</h4>
-    <p>
-      サービスリリース後からユーザー増加に伴い、AWSサーバーコストが増大していました。
-      すべてEC2でデプロイされていたサーバーをECS,Lambdaを活用することによりコスト改善。
-      Develop環境やStaging環境のサーバーコストを自動起動、自動停止を導入しコスト削減。
-    </p>
+  <div class="company-section">
+    <div class="company-header">
+      <span class="company-name">株式会社ripra (副業)</span>
+      <span class="company-period">2025 年 8 月～現在</span>
+    </div>
 
-    <h3>チーム貢献と学習スタンス</h3>
-    <p>
-      開発業務の中での気づきや、ナレッジを横連携することを意識してきました。
+    <div class="company-info">
+      <span><strong>事業内容:</strong> 情報通信業</span>
+      <span><strong>資本金:</strong> -</span>
+      <span><strong>従業員数:</strong> -</span>
+      <span><strong>上場:</strong> -</span>
+    </div>
 
-      開発環境構築やエラーログの分析、VSCode の拡張機能や Node.jsのバージョン管理などを 
-      Gitlab Wiki や README, Redmine や Notion などのドキュメントに共有し、
-      自分自身が困ったことはチームメンバーも困っていることを前提としてチーム内での情報連携を意識してきました。
+    <div class="project-section">
+      <h4>ケアマネージャー向け業務支援アプリ開発</h4>
 
-      業務で利用している技術スタックを中心に代替できる技術やライブラリをキャッチアップし、新規プロジェクトや技術選定に関わる場合に提案することを心がけています。
-    </p>
+      <table>
+        <tr>
+          <th>期間</th>
+          <td>2025 年 8 月～現在</td>
+        </tr>
+        <tr>
+          <th>職種</th>
+          <td>フロントエンドエンジニア</td>
+        </tr>
+        <tr>
+          <th>役割</th>
+          <td>メンバー（フロントエンドリード）</td>
+        </tr>
+        <tr>
+          <th>体制・組織規模</th>
+          <td>全体 5 名（PM 1 名 / デザイナー 1 名 / 開発 3 名 [FE/BE/AI]）</td>
+        </tr>
+      </table>
 
-    <h3>今後の展望</h3>
-    <p>
-      これまで、生成 AI を活用した SaaS プロダクトやWebアプリケーションの開発に携わってきました。
+      <span class="section-label">プロジェクト概要</span>
+      <p>ケアマネージャー向けの業務支援アプリ（B2B SaaS）。<br />音声入力による自動記録機能やユーザー管理、面談管理、スケジュール管理機能、およびサブスクリプション課金機能などを実装。</p>
 
-      硝子業界向け図面読み取り AI Platform, 
-      SES営業向けマッチングサービス、
-      介護業界ケアマネージャー向け Webアプリケーション、
-      建築業界向け SCM システムなど。
+      <span class="section-label">背景・課題</span>
+      <ul>
+        <li>ケアマネージャーの業務は、面談記録の手入力負荷が高い、スケジュール管理や情報分散により業務効率が低下しているといった課題を抱えており、音声入力・AI活用による業務効率化を目的としたSaaSの開発が進められていた。
+        </li>
+        <li>プロジェクトは副業エンジニアが集まっていたチームであり、明確に担当領域を分けることで円滑に進めることが重要だった。</li>
+      </ul>
 
-      これらの経験を活かし、今後はドメインに対する深い知見を付け、よりビジネスに近い視点からエンジニアとして社会課題の解決に携わっていきたいと考えています。
-    </p>
-  </body>
+      <span class="section-label">自分のタスク</span>
+      <ul>
+        <li>副業フロントエンドエンジニアとして参画し、以下を担当。</li>
+        <li>Next.js + Chakra UI V3 を用いた Web アプリケーションのフロントエンド実装</li>
+        <li>Go 製 API と連携するフロント設計・実装</li>
+        <li>App Router / SSR / Server Actions を活用したパフォーマンスと開発体験の最適化</li>
+        <li>PM・デザイナー・バックエンドとの連携を前提とした機能実装</li>
+      </ul>
+
+      <span class="section-label">具体的なアクション</span>
+      <ul>
+        <li>責務分離を意識した実装</li>
+        <li>バックエンド（Go API）に処理を集約し、フロントは表示・操作・状態管理に集中。</li>
+        <li>課金ステータス（trialing, active, past_due等）に応じた機能制限（アクセス制御）ロジックをフロントエンドで構築。</li>
+        <li>Next.js App Routerの特性を活かした最適化</li>
+        <li>SSRとServer Actionsを使い、クライアント側の状態管理を最小化。</li>
+        <li>音声入力・AI処理結果表示など、UXを意識した画面遷移と描画設計。</li>
+        <li>AI駆動開発の実践</li>
+        <li>Claude Codeを活用し、UI実装やリファクタリングの初速を向上。単なるコード生成に留めず、設計意図を確認しながら人手で調整。</li>
+        <li>チーム開発でのコミュニケーション</li>
+        <li>仕様不明点は早期にPM・デザイナーへ確認し、手戻りを防止。非同期中心の副業体制でも進捗が止まらないよう意識。</li>
+      </ul>
+
+      <span class="section-label">成果・影響</span>
+      <ul>
+        <li>スケジュール管理、面談録音〜AI文字起こし・要約、AIチャットボット、質問板など主要機能のフロント実装を完遂。</li>
+        <li>App Router / Server Actionsを活用した構成により、UIレスポンスと実装効率を両立。</li>
+        <li>マネタイズの要となるStripeを用いた決済基盤（30日間トライアル〜自動課金〜カスタマーポータル）のシステム連携仕様を調査し、モック画面をPMへ連携。API仕様書を作成しバックエンドエンジニアへ連携</li>
+        <li>明確な役割分担のチームにおいて、フロントエンド担当として安定した開発速度を維持し、AIエージェントを活用することで限られた時間でも高い生産性を実現。</li>
+      </ul>
+
+      <span class="section-label">利用技術</span>
+      <div class="tech-stack">Next.js (TypeScript) / Chakra UI V3 / Golang / Python / MySQL / Docker / AWS / Firebase /
+        Figma / Claude Code / Stripe API</div>
+    </div>
+  </div>
+  <div class="company-section">
+    <div class="company-header">
+      <span class="company-name">ファイナンシャルテクノロジーシステム株式会社</span>
+      <span class="company-period">2020 年 9 月～現在</span>
+    </div>
+
+    <div class="company-info">
+      <span><strong>事業内容:</strong> 情報通信業</span>
+      <span><strong>資本金:</strong> -</span>
+      <span><strong>従業員数:</strong> -</span>
+      <span><strong>上場:</strong> -</span>
+    </div>
+
+    <div class="project-section">
+      <h4>建築部材の調達プラットフォーム</h4>
+
+      <table>
+        <tr>
+          <th>期間</th>
+          <td>2026 年 1 月～進行中</td>
+        </tr>
+        <tr>
+          <th>職種</th>
+          <td>フルスタックエンジニア</td>
+        </tr>
+        <tr>
+          <th>役割</th>
+          <td>メンバー</td>
+        </tr>
+        <tr>
+          <th>体制・組織規模</th>
+          <td>全体 10 名（PdM 1 名 / テックリード 1名 / リーダー1名 / メンバー 7名）</td>
+        </tr>
+      </table>
+
+      <span class="section-label">プロジェクト概要</span>
+      <p>建築部材の調達プラットフォームのSCMシステム&SaaS開発。<br />リリース後の顧客要望対応や機能追加、継続的な改善を担当。</p>
+
+      <span class="section-label">担当業務</span>
+      <ul>
+        <li>フルスタックエンジニアとしてジョインし、フロントエンドからバックエンドに跨る機能追加や、フロントエンドのライブラリ追加や更新、DBマイグレーションなどを担当。</li>
+        <li>ユーザーから上がってきたフィードバックやバグ・機能改善や機能拡張を担当。</li>
+        <li>PdMが要件定義をGithub Issueに記載 → リーダーがIssueの割り振り → メンバーがポイント付け・設計・開発・テスト → テックリードがレビュー → PdMがDev環境で確認 という開発フロー
+        </li>
+      </ul>
+
+      <span class="section-label">実績・取り組み</span>
+      <ul>
+        <li>1週間スプリントのスクラム開発(毎週金曜日リリース・毎週水曜日レトロスペクティブ)にて実践的にスクラム開発を実施</li>
+        <li>Next.js + NestJS + Hasura(GraphQL)アーキテクチャでの責務の分離。</li>
+        <li>アジャイル開発特有の設計やテストのバランス（設計はIssueやNotion, コードコメントに残し、テストは共通処理や重要なビジネスロジックのみ）。</li>
+        <li>フルリモート環境下での仕様確認やPRレビュー依頼の進め方、Slackでの非同期コミュニケーション、および必要に応じたオンラインMTGの活用。</li>
+        <li>Cursorを使ったAIコーディングのナレッジをチームに共有し、プロンプトや運用方法を毎週のレトロスペクティブで共有。</li>
+        <li>SCMシステム開発チーム、SaaSアプリ開発チーム、AIチームの3つのチーム間でのコラボレーションと通じて他チームとの連携</li>
+      </ul>
+
+      <span class="section-label">利用技術</span>
+      <div class="tech-stack">TypeScript(Next.js, NestJS) / Chakra UI V2 / NodeJS / Hasura GraphQL / Python (FastAPI)
+        /PostgreSQL / Drizzle (ORM) / Docker / GCP / Sentry / Dependabot / GitHub / GitHub Actions / Notion / Slack
+      </div>
+    </div>
+    <div class="project-section">
+      <h4>大手通信事業会社コールセンター向け AIプロダクト開発(PoC)</h4>
+
+      <table>
+        <tr>
+          <th>期間</th>
+          <td>2025 年 10 月～ 2025 年 11 月</td>
+        </tr>
+        <tr>
+          <th>職種</th>
+          <td>バックエンドエンジニア / AIエンジニア</td>
+        </tr>
+        <tr>
+          <th>役割</th>
+          <td>メンバー</td>
+        </tr>
+        <tr>
+          <th>体制・組織規模</th>
+          <td>チーム：PM 1 名 / 開発 2 名</td>
+        </tr>
+      </table>
+
+      <span class="section-label">プロジェクト概要</span>
+      <p>データアナリティクス企業にて、生成 AI 技術の PoC および AI プロダクトのプロトタイプ開発を担当。<br />PoC 開発チームに所属し、主にプロトタイプ Web
+        アプリケーションの機能追加、バッチの開発・改善を担当。</p>
+
+      <span class="section-label">担当業務</span>
+      <ul>
+        <li>プロトタイプ Web アプリケーションの機能追加、バッチの開発・改善</li>
+        <li>AWS 環境の構築(ECS, Lambda, EventBridge, S3, IAM, VPC, Transcribe)</li>
+        <li>生成 AI プロダクトの AWS デプロイフロー構築（電話音声 -> 文字起こし -> AI 要約 -> 出力結果格納 -> Web 表示）</li>
+      </ul>
+
+      <span class="section-label">実績・取り組み</span>
+      <ul>
+        <li>PoC 開発における迅速な開発サイクル（設計 -> 開発 -> 動作確認 -> 精度検証 -> デプロイ)の実践</li>
+        <li>クラウドネイティブなアプリケーションの実装</li>
+        <li>音声認識・生成 AI など複数 AI 技術の利用</li>
+        <li>ビジネスコンサル・データサイエンティストとの協業</li>
+        <li>開発における生成 AI ツールの PoC (Notion や Claude Code などを利用)</li>
+      </ul>
+
+      <span class="section-label">利用技術</span>
+      <div class="tech-stack">Python / Streamlit / AWS (Bedrock, Transcribe, S3, Lambda, ECS, EventBridge, IAM, VPC) /
+        Docker / GitHub / Claude Code</div>
+    </div>
+    <div class="project-section">
+      <h4>自社サービス「FTS-Future-Connect」の開発、DevOps</h4>
+
+      <table>
+        <tr>
+          <th>期間</th>
+          <td>2024年11月 ～ 2025年12月</td>
+        </tr>
+        <tr>
+          <th>職種</th>
+          <td>フルスタックエンジニア</td>
+        </tr>
+        <tr>
+          <th>役割</th>
+          <td>リーダー（後半はメンバー）</td>
+        </tr>
+        <tr>
+          <th>体制・組織規模</th>
+          <td>5名（PM1 / AIエンジニア1 / 開発3）</td>
+        </tr>
+      </table>
+
+      <span class="section-label">プロジェクト概要</span>
+      <p>職務経歴書と案件のマッチ度を算出する Web アプリケーションの新規機能（メールマッチング機能）開発。<br />開発リーダーとして、基本設計からリリースまでの一連の工程を担当し、フロントエンド・バックエンドの実装から
+        STG 環境構築まで幅広く貢献。</p>
+
+      <span class="section-label">背景・課題</span>
+      <ul>
+        <li>SES営業向けエンジニアと案件のマッチングを目的とした自社Webサービスの新規機能開発および、リリース後の継続的な改善・運用を行うフェーズ。</li>
+        <li>小規模チームでの自社開発</li>
+        <li>生成AI（LLM）を活用したマッチング機能が事業の中核</li>
+        <li>リリース後、顧客要望への迅速な対応と開発体制の整備が課題</li>
+      </ul>
+
+      <span class="section-label">自分のタスク</span>
+      <ul>
+        <li>新規機能（メールマッチング機能）の設計〜リリースをリード</li>
+        <li>フロントエンド・バックエンドを横断した実装</li>
+        <li>リリース後の運用負荷を下げるための DevOps / CI/CD 整備</li>
+        <li>顧客要望を反映しながら、短いスパンでの改善サイクルを確立</li>
+      </ul>
+
+      <span class="section-label">具体的なアクション</span>
+      <ul>
+        <li>① 新規機能開発（リーダーとして）</li>
+        <li>初回リリース後の新規機能追加におけるDB設計、API仕様書、画面遷移図などの基本設計を担当</li>
+        <li>Next.js（TypeScript）によるフロント・バックエンド一体型開発</li>
+        <li>Python（FastAPI）でのAPI実装、メール送信（IMAP/SMTP）、暗号化処理</li>
+        <li>LLM（Gemini / OpenAI）を用いたマッチングロジック・プロンプト設計</li>
+        <li>Jestによる単体テスト、Golangバッチとの結合テスト、負荷テストを実施</li>
+        <li>EC2上、STG環境構築へデプロイ</li>
+        <li>② リリース後の運用・DevOps改善</li>
+        <li>CI/CD を構築し、1か月おきの安定したリリースサイクルを確立</li>
+        <li>Microsoft OAuth2 認証機能の追加</li>
+        <li>AIによる案件分類プロンプトの改善</li>
+        <li>UI/UX 改善、運用管理画面の機能拡張</li>
+        <li>Lambda によるユーザー数集計バッチを実装</li>
+        <li>運用チームとの定期MTGを通じた改善要望の整理・反映</li>
+      </ul>
+
+      <span class="section-label">成果・影響</span>
+      <ul>
+        <li>新規機能を設計からリリースまで一貫して完遂</li>
+        <li>短いスパンでのマイナーアップデートが可能な 開発・運用基盤を構築</li>
+        <li>運用チームとの連携強化により、改善リードタイムを短縮</li>
+        <li>フルスタック＋AWS運用経験を活かし、プロダクト全体を俯瞰した開発に貢献</li>
+      </ul>
+
+      <span class="section-label">利用技術</span>
+      <div class="tech-stack">Next.js（TypeScript） / Tailwind CSS / Python（FastAPI） / Golang / PostgreSQL / Prisma /
+        Docker / AWS（EC2, S3, RDS, Lambda, Redis, CloudWatch） / GitLab / Redmine / Google Chat / Slack / Vim</div>
+    </div>
+    <div class="project-section">
+      <h4>自社サービス「FTS AI Platform」の開発・PMF</h4>
+
+      <table>
+        <tr>
+          <th>期間</th>
+          <td>2020 年 9 月～ 2021 年 3 月（QA・運用保守）、2022 年 4 月～ 2022 年 12 月（マイクロサービス化）</td>
+        </tr>
+        <tr>
+          <th>職種</th>
+          <td>バックエンドエンジニア / フロントエンドエンジニア / QA</td>
+        </tr>
+        <tr>
+          <th>役割</th>
+          <td>メンバー（仕様整理・実装・テスト主導）</td>
+        </tr>
+        <tr>
+          <th>体制・組織規模</th>
+          <td>全体 7〜10 名 / チーム 3〜4 名</td>
+        </tr>
+      </table>
+
+      <span class="section-label">プロジェクト概要</span>
+      <p>
+        画像解析AIとOCR技術を組み合わせた帳票データ化プラットフォーム（自社SaaS）の開発・運用。<br />プロジェクト参画初期は品質保証（QA）やバグ修正を通じてプロダクトのドメイン知識を習得。その後、保守性・拡張性の課題を解決するための大規模な「マイクロサービス化・リファクタリング」プロジェクトにおいて、設計から実装まで担当。
+      </p>
+
+      <span class="section-label">背景・課題</span>
+      <ul>
+        <li>自社R&D部署が検証するAIモデルをもとにプロダクト開発。AIの精度向上に時間がかかっていた。</li>
+        <li>設計当初のアーキテクチャ(PHP Laravel)からモダンな構成(React + FastAPI)へのリアーキテクチャによる開発スピードの向上が求められていた。</li>
+      </ul>
+
+      <span class="section-label">自分のタスク</span>
+      <ul>
+        <li>【フェーズ1: QA・運用保守】プロダクトのQA担当として、テスト設計・実行・不具合対応・AIモデルの学習データ作成を担当</li>
+        <li>【フェーズ2: マイクロサービス化】既存システムの仕様整理から、フロントエンド実装・テストまでを一貫して担当する中核メンバーとして参画</li>
+      </ul>
+
+      <span class="section-label">具体的なアクション</span>
+      <ul>
+        <li>【フェーズ1: 品質保証・AI学習データ作成】（2020年9月〜2021年3月）</li>
+        <li>自社サービスの総合テスト・不具合対応（テストケースの作成・実行）</li>
+        <li>不具合の調査・原因特定・修正</li>
+        <li>AIモデルの学習データ作成（アノテーション作業）</li>
+        <li>Redmineや Git issue を用いたタスク・課題管理</li>
+        <li>【フェーズ2: マイクロサービス化・リアーキテクチャ】（2022年4月〜12月）</li>
+        <li>既存システムの仕様整理・テストケース作成・API仕様書の作成</li>
+        <li>フロントエンド（React）のバグ修正・新規ユーザー追加処理の実装</li>
+        <li>アカウント権限の再設計および機能制限の実装</li>
+        <li>結合テスト〜不具合修正・総合テスト実施</li>
+      </ul>
+
+      <span class="section-label">成果・影響</span>
+      <ul>
+        <li>アカウント権限再設計によりSaaSとしてのセキュリティと保守性を大幅に向上させた。</li>
+        <li>AIの学習データ作成（アノテーション）作業から、精度検証を経験し、AIプロダクト特有の開発を経験。</li>
+      </ul>
+
+      <span class="section-label">利用技術</span>
+      <div class="tech-stack">PHP (Laravel) / Python (FastAPI) / React (JavaScript) / MySQL 5.7 / Docker / AWS (EC2) /
+        Ubuntu 20.04 / GitLab / Slack / Redmine / Postman</div>
+    </div>
+  </div>
+  <div class="company-section">
+    <div class="company-header">
+      <span class="company-name">現職経由 受託案件 - NII研究所</span>
+      <span class="company-period">2021 年 4 月～ 2023 年 3 月</span>
+    </div>
+
+    <div class="company-info">
+      <span><strong>事業内容:</strong> 教育・研究機関</span>
+      <span><strong>資本金:</strong> -</span>
+      <span><strong>従業員数:</strong> -</span>
+      <span><strong>上場:</strong> -</span>
+    </div>
+
+    <div class="project-section">
+      <h4>論文管理システムの新規開発・機能拡張</h4>
+
+      <table>
+        <tr>
+          <th>期間</th>
+          <td>2021 年 4 月～ 2021 年 11 月（新規開発）、2023 年 1 月～ 2023 年 3 月（機能拡張）</td>
+        </tr>
+        <tr>
+          <th>職種</th>
+          <td>フロントエンドエンジニア / バックエンドエンジニア</td>
+        </tr>
+        <tr>
+          <th>役割</th>
+          <td>Webアプリケーション開発全般（1人月）</td>
+        </tr>
+        <tr>
+          <th>体制・組織規模</th>
+          <td>全体 3 名（PM 1 名 / AIエンジニア 1 名 / Web開発 1 名 [＝自分]）</td>
+        </tr>
+      </table>
+
+      <span class="section-label">プロジェクト概要</span>
+      <p>
+        教育・研究機関向けの論文管理およびユーザー管理を行うWebシステムの新規開発、および運用開始後の機能拡張プロジェクト。<br />単なる論文管理にとどまらず、AIエンジニアが開発した「論文要約・サムネイル自動生成」「NGワードチェック」などのAIモデルをWebシステムに統合し、ユーザーが直感的に利用できるアプリケーションとして構築。
+      </p>
+
+      <span class="section-label">担当業務</span>
+      <ul>
+        <li>【フェーズ1: 新規開発】</li>
+        <li>フロントエンドおよびバックエンドの実装（画面作成、ルーティング、ログイン機能実装、ユーザー権限設定）</li>
+        <li>Python (Flask) を用いたバックエンド実装および HTML/CSS/JavaScript による UI 作成</li>
+        <li>AI モデル（論文要約・サムネイル自動生成）との連携実装</li>
+        <li>システム全体のテストとデバッグ</li>
+        <li>【フェーズ2: 機能拡張】</li>
+        <li>提案依頼書に対する修正概要書の作成</li>
+        <li>Admin ユーザーによる管理画面の追加</li>
+        <li>AI による要約と NG ワードのチェック機能、公開・非公開設定機能の追加（AI モデル以外）</li>
+        <li>メールサーバーの設定およびメール送信機能の不具合修正</li>
+        <li>各種テストケースの作成・実施</li>
+        <li>Docker や Linux コマンドを用いたデプロイ手順書の作成</li>
+      </ul>
+
+      <span class="section-label">実績・取り組み</span>
+      <ul>
+        <li>論文管理システムの 0 → 1 開発（フルスタックでの実装担当）</li>
+        <li>AI 連携機能（論文要約・NGワードチェック・サムネイル自動生成）を持つ Web アプリケーションの構築</li>
+        <li>デプロイ手順のドキュメント化により、属人化を防ぎ、運用保守の効率を大幅に向上させた。</li>
+      </ul>
+
+      <span class="section-label">利用技術</span>
+      <div class="tech-stack">Python (Flask) / HTML / CSS / JavaScript / MySQL 5.7 / AWS (EC2) / Ubuntu 20.04 / Docker /
+        GitLab / Slack / Redmine / Postman</div>
+    </div>
+  </div>
+  <div class="company-section">
+    <div class="company-header">
+      <span class="company-name">ミストラルテック株式会社 (副業)</span>
+      <span class="company-period">2024 年 10 月～ 2025 年 6 月</span>
+    </div>
+
+    <div class="company-info">
+      <span><strong>事業内容:</strong> 情報通信業</span>
+      <span><strong>資本金:</strong> -</span>
+      <span><strong>従業員数:</strong> -</span>
+      <span><strong>上場:</strong> -</span>
+    </div>
+
+    <div class="project-section">
+      <h4>自社ホームページ制作</h4>
+
+      <table>
+        <tr>
+          <th>期間</th>
+          <td>2025 年 4 月～ 2025 年 6 月</td>
+        </tr>
+        <tr>
+          <th>職種</th>
+          <td>フロントエンドエンジニア</td>
+        </tr>
+        <tr>
+          <th>役割</th>
+          <td>メンバー</td>
+        </tr>
+        <tr>
+          <th>体制・組織規模</th>
+          <td>全体 4 名（PM 1 名 / デザイナー 1 名 / 開発 2 名）</td>
+        </tr>
+      </table>
+
+      <span class="section-label">プロジェクト概要</span>
+      <p>副業エンジニアとして、自社ホームページ刷新プロジェクトに参画。<br />デザイナーが作成した Figma のデザインカンプを元に、Next.js と Tailwind CSS を用いてフロントエンドの実装を担当。</p>
+
+      <span class="section-label">担当業務</span>
+      <ul>
+        <li>Figma デザインカンプに基づいた Next.js (TSX) と Tailwind CSS によるコーディング</li>
+        <li>デザインカンプのレイアウト実装および Tailwind CSS を用いた詳細なスタイリング・装飾</li>
+        <li>Illustrator で作成された素材（写真・アイコン・イラスト）の Web サイトへの組み込み</li>
+        <li>レスポンシブデザイン対応</li>
+        <li>PM 兼バックエンド担当者との連携によるデザイン再現と画面実装</li>
+      </ul>
+
+      <span class="section-label">実績・取り組み</span>
+      <ul>
+        <li>デザイナーとの連携による忠実なデザイン再現</li>
+        <li>レスポンシブ対応を含むモダンな Web サイト構築</li>
+      </ul>
+
+      <span class="section-label">利用技術</span>
+      <div class="tech-stack">Next.js (TypeScript) / TSX / Tailwind CSS / Vercel / GitHub / Slack / Figma / VSCode
+        (Cursor)</div>
+    </div>
+    <div class="project-section">
+      <h4>自社プロダクト AIチャットボット プロトタイプ開発</h4>
+
+      <table>
+        <tr>
+          <th>期間</th>
+          <td>2024 年 10 月～ 2024 年 12 月</td>
+        </tr>
+        <tr>
+          <th>職種</th>
+          <td>フロントエンドエンジニア / バックエンドエンジニア</td>
+        </tr>
+        <tr>
+          <th>役割</th>
+          <td>メンバー</td>
+        </tr>
+        <tr>
+          <th>体制・組織規模</th>
+          <td>全体 3 名（開発 3 名）</td>
+        </tr>
+      </table>
+
+      <span class="section-label">プロジェクト概要</span>
+      <p>SaaS 系 AI チャットボットのプロトタイプ開発。<br />副業エンジニアとしてジョインし、フロントエンド・バックエンドの両方を担当し、0 -> 1 での開発を実施。</p>
+
+      <span class="section-label">担当業務</span>
+      <ul>
+        <li>Figma で作成されたワイヤーフレームを元にした実装</li>
+        <li>ログイン・サインアップ・法人登録機能の実装</li>
+        <li>shadcn/ui や Tailwind CSS を利用したフロントエンド開発</li>
+        <li>Next.js API Routes を使った各画面の CRUD 処理実装</li>
+        <li>0 -> 1 でのフロントエンドおよびバックエンドのコーディング</li>
+      </ul>
+
+      <span class="section-label">実績・取り組み</span>
+      <ul>
+        <li>フルスタックでのプロトタイプ開発（Next.js）</li>
+        <li>shadcn/ui を活用したモダンな UI 実装</li>
+      </ul>
+
+      <span class="section-label">利用技術</span>
+      <div class="tech-stack">Next.js (TypeScript) / Tailwind CSS / shadcn/ui / PostgreSQL / GitHub / Slack / Figma /
+        VSCode (Cursor)</div>
+    </div>
+  </div>
+
+  <h2>自己 PR</h2>
+
+  <h3>課題への着眼と改善推進力</h3>
+  <p>
+    自社プロダクトの開発では特にコスト意識を強く持ち、コストに対する改善に貢献してきました。
+  </p>
+
+  <h4>見えないコスト対するアプローチ</h4>
+  <p>
+    AWS EC2へ手動でデプロイ、テストの実施をしており、属人化、目視確認による作業工数増加という
+    業務課題がありました。
+    Gitlab CI/CD を活用し、 eslintによるコードの静的解析、jestによるテストの自動化、
+    AWS SAMによるデプロイの自動化を導入することでこれらの作業工数を削減しました。
+    新規機能の開発を急ぐ経営陣やマネージャーへ、これらを導入する必要性を論理的に伝えることでチーム内の業務効率化と品質担保に貢献しました。
+  </p>
+
+  <h4>サーバーコストに対するアプローチ</h4>
+  <p>
+    サービスリリース後からユーザー増加に伴い、AWSサーバーコストが増大していました。
+    すべてEC2でデプロイされていたサーバーをECS,Lambdaを活用することによりコスト改善。
+    Develop環境やStaging環境のサーバーコストを自動起動、自動停止を導入しコスト削減。
+  </p>
+
+  <h3>チーム貢献と学習スタンス</h3>
+  <p>
+    開発業務の中での気づきや、ナレッジを横連携することを意識してきました。
+
+    開発環境構築やエラーログの分析、VSCode の拡張機能や Node.jsのバージョン管理などを
+    Gitlab Wiki や README, Redmine や Notion などのドキュメントに共有し、
+    自分自身が困ったことはチームメンバーも困っていることを前提としてチーム内での情報連携を意識してきました。
+
+    業務で利用している技術スタックを中心に代替できる技術やライブラリをキャッチアップし、新規プロジェクトや技術選定に関わる場合に提案することを心がけています。
+  </p>
+
+  <h3>今後の展望</h3>
+  <p>
+    これまで、生成 AI を活用した SaaS プロダクトやWebアプリケーションの開発に携わってきました。
+
+    硝子業界向け図面読み取り AI Platform,
+    SES営業向けマッチングサービス、
+    介護業界ケアマネージャー向け Webアプリケーション、
+    建築業界向け SCM システムなど。
+
+    これらの経験を活かし、今後はドメインに対する深い知見を付け、よりビジネスに近い視点からエンジニアとして社会課題の解決に携わっていきたいと考えています。
+  </p>
+</body>
+
 </html>
