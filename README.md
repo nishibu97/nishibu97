@@ -21,11 +21,12 @@
 - Implemented **CI/CD pipelines** with GitLab CI/CD
 - Managed **AWS infrastructure** (EC2, S3, Lambda, RDS, CloudWatch)
 - Deployed and maintained **Docker-containerized applications**
--->
+
 ## 📈 GitHub Analytics  
 📝 **Note**: These stats reflect public repositories only.  
 [![nishibu's GitHub stats](https://github-readme-stats.vercel.app/api?username=nishibu97)](https://github.com/anuraghazra/github-readme-stats)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nishibu97&layout=compact&theme=transparent)
+-->
 
 ## 🚀 Current Projects
 **Since October 2024**  
