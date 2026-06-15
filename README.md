@@ -89,10 +89,9 @@ const mySkills = {
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-8B5A3C?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 
-<!--
 ## 🏆 Certifications
-[![JDLA G検定2026](https://バッジ画像のURL.png)](https://バッジの公開検証ページのURL)
-* **JDLA Deep Learning for GENERAL (G検定)** - [検証ページを見る](https://バッジの公開検証ページのURL)
--->
+
+[![JDLA G検定2026]()]([https://バッジの公開検証ページのURL](https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/TzFWSW5ERm90VjNSVHR4UHA2YXhLUT09))
+* **JDLA Deep Learning for GENERAL (G検定)** - [検証ページを見る]([https://バッジの公開検証ページのURL](https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/TzFWSW5ERm90VjNSVHR4UHA2YXhLUT09))
 ---
 
