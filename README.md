@@ -74,6 +74,7 @@ const mySkills = {
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 
 ### Tools & Others
@@ -88,6 +89,15 @@ const mySkills = {
 ![Claude](https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-8B5A3C?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+![Vertex AI](https://img.shields.io/badge/Vertex%20AI-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+
+**Core AI Competencies:**
+*  **Amazon Bedrock / Transcribe:** 音声認識・文字起こし・要約パイプライン
+*  **Document AI / Vision API:** 図面や非定型PDFからのデータ抽出
+*  **Data Preprocessing:** PDF・画像データの高度な前処理（PyMuPDF, pypdfium2
+*  **LLM Optimization:** プロンプトチューニングや精度検証と改善
+*  **Proof of Concept:** ビジネス要件の仮説検証に向けたAI機能のPoC・プロトタイプ画面実装
 
 ## 🏆 Certifications
 
