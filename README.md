@@ -93,8 +93,8 @@ const mySkills = {
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 
 **Core AI Competencies:**
-*  **Amazon Bedrock / Transcribe:** 音声認識・文字起こし・要約パイプライン
-*  **Document AI / Vision API:** 図面や非定型PDFからのデータ抽出
+*  **Amazon Bedrock / Transcribe:** コールセンター向け音声認識・文字起こし・要約パイプライン
+*  **Document AI / Vision API:** 建築業界向け図面や非定型PDFからのデータ抽出
 *  **Data Preprocessing:** PDF・画像データの前処理
 *  **LLM Optimization:** プロンプトチューニングや精度検証と改善
 *  **Proof of Concept:** ビジネス要件の仮説検証に向けたAI機能のPoC・プロトタイプ画面実装
