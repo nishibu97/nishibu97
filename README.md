@@ -101,6 +101,12 @@ const mySkills = {
 
 ## 🏆 Certifications
 
-* **JDLA Deep Learning for GENERAL (G検定)** - [Open Badge](https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/TzFWSW5ERm90VjNSVHR4UHA2YXhLUT09)
+<a href="https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/TzFWSW5ERm90VjNSVHR4UHA2YXhLUT09" target="_blank">
+  <img src="static/jdla-g-kentei-2026-3.png" alt="JDLA Deep Learning for GENERAL (G検定)" width="150" align="middle" />
+</a>
+<a href="https://bcert.me/srmodjzad" target="_blank">
+  <img src="static/csm-scrum-alliance.png" alt="Certified ScrumMaster (CSM)" width="120" align="middle" />
+</a>
+
 ---
 
