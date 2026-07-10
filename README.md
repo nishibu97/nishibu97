@@ -101,6 +101,9 @@ const mySkills = {
 
 ## 🏆 Certifications
 
+- **JDLA Deep Learning for GENERAL 2026 #3 (G検定)** — 一般社団法人 日本ディープラーニング協会 (JDLA)
+- **Certified ScrumMaster® (CSM®)** — Scrum Alliance
+
 <a href="https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/TzFWSW5ERm90VjNSVHR4UHA2YXhLUT09" target="_blank">
   <img src="static/jdla-g-kentei-2026-3.png" alt="JDLA Deep Learning for GENERAL (G検定)" width="150" align="middle" />
 </a>
