@@ -113,3 +113,9 @@ const mySkills = {
 
 ---
 
+## 🧩 Coding Practice
+
+<a href="https://leetcode.com/u/nishibu/" target="_blank">
+  <img src="https://leetcard.jacoblin.cool/nishibu?theme=dark&font=Baloo&ext=heatmap" alt="LeetCode Stats" />
+</a>
+
