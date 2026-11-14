@@ -28,8 +28,9 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nishibu97&layout=compact&theme=transparent)
 -->
 
-## 🚀 Current Projects
-**Since October 2024**  
+## Work History 
+
+**Since April 2024**  
 [Fconne](https://fts-future-connect.com/)  
 
 **Since October 2024**  
@@ -37,6 +38,10 @@
 
 **Since August 2025**  
 [ripla](https://www.ripla.co.jp/) - *Frontend Engineering*
+
+## 🚀 Current Projects
+**Since January 2026**  
+[Ballas](https://www.ballas.biz/) - *AI&LLM Engineering*
 
 <!--
 ## 🏆 コアスキル
@@ -47,7 +52,7 @@ const mySkills = {
   経験年数: '5年目',
   得意業務: ['設計から実装まで一貫開発', '既存システム改善', 'リファクタリング'],
   専門分野: ['Webアプリ開発', 'マイクロサービス', 'AI活用開発'],
-  DevOps: ['GitLab CI/CD', 'AWS Infrastructure', 'Docker'],
+  DevOps: ['CI/CD', 'AWS Infrastructure', 'Docker'],
   学習中: ['AWS CDK', 'Go lang', 'Team Management']
 }
 ```
